@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bauxt-des-sens.com'),
+  icons: {
+    icon: "/images/logo.png",
+    },
   description: "A la recherche d'un massage ou d'un moment propice à la détente sur Arles et la région des Alpilles ?... Baux'T des sens vous propose des séances de massage à domicile et d'initiation au Hata yoga.",
   openGraph: {
     title: "BauxT des sens, massages sur Arles, Camargue, Alpilles et alentours",
