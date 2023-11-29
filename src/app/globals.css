@@ -25,3 +25,127 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.button {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  height: 70px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-style: italic;
+  background-color:#797067;
+  color: #c4b9b1;
+  line-height: 1rem;
+  margin: 0 auto;
+  width:160px;
+  border: 6px double whitesmoke;
+  color: #4d4742;
+  background-color: #c4b9b1;
+  border-radius: 0%;
+}
+
+.home-titles{
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  color: whitesmoke;
+  font-size : 3rem;
+  font-style : italic;
+  font-weight: normal;
+  margin: 40px 0px 25px;
+}
+
+@media (max-width: 1250px) {
+  .home-titles{
+    font-size : 2rem;
+  }
+}
+
+.bandeau-btn{
+  height: 150px;
+  padding: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 50%;
+  z-index: 2;
+  height: 70px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: italic;
+  background-color: #797067;
+  border: 2px double silver;
+  color: white;
+  transition: color 0.5s ease-out, background-color 0.2s ease-out, border-color 0.5s, border-radius 0.3s ease-out;
+}
+
+.bandeau-btn:hover{
+  border: 10px double #797067;
+  color: #797067;
+  background-color: #bdb7b2;
+  border-radius: 0;
+}
+
+.border-diplome{
+  border-top: '2px double #797067'; 
+  border-right: "2px double #797067"; 
+  border-bottom: '2px double #797067';
+  border-left:'10px solid #797067'
+}
+
+@keyframes rotation{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(-360deg)
+  }
+}
+
+.fan{
+  animation: rotation 5s linear infinite;
+}
+
+@keyframes scrollTextStart {
+  from { transform: translateX(0%) }
+  to { transform: translateX(-100%) }
+}
+
+.arles{
+  transition : all 1s;
+  white-space: nowrap;
+  text-align: left;
+  animation: scrollTextStart 8.5s infinite linear;
+}
+.arles-2{
+  padding: 0;
+  transition : all 1s;
+  white-space: nowrap;
+  text-align: left;
+  animation: scrollTextStart 8.5s infinite linear;
+}
+@keyframes upAndDown{
+  0%{
+    transform: translateY(8px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(8px);
+  }
+}
+.arrow-anim{
+  animation: upAndDown ease-in-out 1.5s infinite;
+}
+
+
