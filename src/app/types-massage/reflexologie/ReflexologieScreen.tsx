@@ -42,10 +42,10 @@ const ReflexologieScreen: FC = () => {
             <div className='min-w-[4px] min-h-full bg-pink rounded-md'/>
             <div className='text-justify indent-5 text-white text-xl lg:text-2xl leading-10 px-5 italic'>
               <p style={{lineHeight:'2.5rem'}} className={`${karla.className} mb-5`}>
-                Les pieds sont une partie du corps souvent ou&shy;bliés pour les soins et le bien-être, a&shy;lors qu'ils sont sou&shy;vent très sol&shy;lici&shy;tés tout au long de la jour&shy;née lors&shy;que vous mar&shy;chez ou que vous res&shy;tez en posi&shy;tion de&shy;bout prolongée à cause du port des chaus&shy;sures et du poids qu'ils sup&shy;portent au quo&shy;ti&shy;dien.
+                Les pieds sont une partie du corps souvent ou&shy;bliés pour les soins et le bien-être, a&shy;lors qu&apos;ils sont sou&shy;vent très sol&shy;lici&shy;tés tout au long de la jour&shy;née lors&shy;que vous mar&shy;chez ou que vous res&shy;tez en posi&shy;tion de&shy;bout prolongée à cause du port des chaus&shy;sures et du poids qu&apos;ils sup&shy;portent au quo&shy;ti&shy;dien.
               </p>
               <p style={{lineHeight:'2.5rem'}} className={`${karla.className}`}>
-                C'est là qu'entre en jeu la ré&shy;flexo&shy;lo&shy;gie et le mas&shy;sa&shy;ge de la vou&shy;te plan&shy;taire dont les bien&shy;faits ne sont plus à dé&shy;mon&shy;trer pour a&shy;pai&shy;ser le stress, sou&shy;la&shy;ger des dou&shy;leurs (du dos, mi&shy;grai&shy;ne, etc...), ou tout sim&shy;ple&shy;ment pas&shy;ser un mo&shy;ment de qua&shy;li&shy;té, a&shy;gréa&shy;ble et en&shy;chan&shy;teur.
+                C&apos;est là qu&apos;entre en jeu la ré&shy;flexo&shy;lo&shy;gie et le mas&shy;sa&shy;ge de la vou&shy;te plan&shy;taire dont les bien&shy;faits ne sont plus à dé&shy;mon&shy;trer pour a&shy;pai&shy;ser le stress, sou&shy;la&shy;ger des dou&shy;leurs (du dos, mi&shy;grai&shy;ne, etc...), ou tout sim&shy;ple&shy;ment pas&shy;ser un mo&shy;ment de qua&shy;li&shy;té, a&shy;gréa&shy;ble et en&shy;chan&shy;teur.
               </p>
             </div>
             <div className='min-w-[4px] min-h-full bg-pink rounded-md'/>

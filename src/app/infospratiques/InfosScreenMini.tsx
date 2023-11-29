@@ -15,7 +15,7 @@ const InfosScreenMini: FC = () => {
     >
       <article className="w-full bg-white py-8">
         <h3 className={`text-pink text-center text-4xl pb-5 mx-10 border-b border-pink ${mrsDelafield.className}`}>
-          Baux't des sens
+          Baux&apos;t des sens
         </h3>
           <div className="flex flex-col items-center w-full min-h-[250px] mx-auto pt-16 px-5 pb-0 gap-5">
             <div className="min-w-[200px] relative h-56 overflow-hidden border-2 border-black flex-nowrap rounded-xl">
@@ -24,7 +24,7 @@ const InfosScreenMini: FC = () => {
             <p className={`text-black flex flex-col ${karla.className} border-l-8 border-pink pl-2.5 text-justify text-base w-full relative my-0 mx-2.5 italic`}>
               <FaQuoteLeft />
               <span className='indent-5'>
-                Les soins que j'apporte sont issus d'une formation où j'ai appris de multiples techniques profes&shy;sion&shy;nelles. La qualité de mes massages se démar&shy;que par l'in&shy;tention particulière, la bi&shy;en&shy;veillance et l'é&shy;nergie que j'y mets. Mon but étant de vous ap&shy;porter un moment unique et sur-mesure grâce à mon attention, ma disponibilité et mon écoute.
+                Les soins que j&apos;apporte sont issus d&apos;une formation où j&apos;ai appris de multiples techniques profes&shy;sion&shy;nelles. La qualité de mes massages se démar&shy;que par l&apos;in&shy;tention particulière, la bi&shy;en&shy;veillance et l&apos;é&shy;nergie que j&apos;y mets. Mon but étant de vous ap&shy;porter un moment unique et sur-mesure grâce à mon attention, ma disponibilité et mon écoute.
               </span>
               <FaQuoteRight className='self-end' />
             </p>

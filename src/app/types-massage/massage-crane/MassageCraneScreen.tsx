@@ -30,7 +30,7 @@ const MassageCranePage: FC = () => {
                 Ah, le massage du cuir chevelu ! Beau&shy;coup de ceux et celles qui sont déjà pas&shy;sés sous mes mains en sont tellement fan... Impos&shy;sible de ter&shy;miner le mo&shy;dela&shy;ge sans passer par là. 
               </p>
               <p className='leading-10 my-2.5'>
-                Ce massage semble assez anodin mais ses effets positifs sur l'esprit et le corps à court et long terme sont in&shy;nombra&shy;bles.
+                Ce massage semble assez anodin mais ses effets positifs sur l&apos;esprit et le corps à court et long terme sont in&shy;nombra&shy;bles.
               </p>
             </div> 
           </div>
@@ -75,7 +75,7 @@ const MassageCranePage: FC = () => {
               <li className='flex items-center gap-5 my-2.5'>
                 <FaFan className='fan self-start mt-2 text-pink'/>
                 <p className={`${karla.className} leading-8 text-justify w-96 md:w-[500px] lg:w-full italic text-xl text-white lg:text-2xl`} >
-                  Il minore l’an&shy;xiété, la fati&shy;gue, le stress et les maux de tête.
+                  Il minore l&apos;an&shy;xiété, la fati&shy;gue, le stress et les maux de tête.
                 </p>
               </li>
             </ul>

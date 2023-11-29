@@ -6,7 +6,7 @@ const YogaPage: FC = () => {
   return (
     <>      
       <Head>
-        <title>Baux't des sens | Initiation au yoga à domicile Arles, Camargue & Alpilles</title>
+        <title>Baux&apos;t des sens | Initiation au yoga à domicile Arles, Camargue & Alpilles</title>
       </Head>
       <YogaScreen/>
     </>

@@ -43,7 +43,7 @@ const SoinsVisageScreen: FC = () => {
               <h5 className={`${italianno.className} text-4xl underline-offset-4 tracking-wider`}><u>&Eacute;tape 1 :</u> Nettoyer la peau</h5>
             </div>
             <p className={`${karla.className} pl-5 text-xl lg:text-2xl leading-10 indent-5 text-justify italic`} >
-              On commence d'abord par un net&shy;toya&shy;ge en pro&shy;fon&shy;deur de la peau afin de désin&shy;cruster les pores et éliminer les restes de maquillage. Le pro&shy;ces&shy;sus est ef&shy;fec&shy;tué par ap&shy;pli&shy;ca&shy;tion d'un gel mous&shy;sant sur la peau du vi&shy;sage.
+              On commence d&apos;abord par un net&shy;toya&shy;ge en pro&shy;fon&shy;deur de la peau afin de désin&shy;cruster les pores et éliminer les restes de maquillage. Le pro&shy;ces&shy;sus est ef&shy;fec&shy;tué par ap&shy;pli&shy;ca&shy;tion d&apos;un gel mous&shy;sant sur la peau du vi&shy;sage.
             </p>
           </li>
           <li className='mb-10'>
@@ -61,7 +61,7 @@ const SoinsVisageScreen: FC = () => {
             <h5 className={`${italianno.className} text-4xl underline-offset-4 tracking-wider`}><u>Etape 3 :</u> Le masque</h5>
           </div>
             <p className={`${karla.className} pl-5 text-xl lg:text-2xl leading-10 indent-5 text-justify italic`}>
-              Ensuite, l'ap&shy;pli&shy;ca&shy;tion d'un mas&shy;que a&shy;dapté per&shy;met&shy;tra de pu&shy;ri&shy;fier et d'as&shy;sai&shy;nir la peau.
+              Ensuite, l&apos;ap&shy;pli&shy;ca&shy;tion d&apos;un mas&shy;que a&shy;dapté per&shy;met&shy;tra de pu&shy;ri&shy;fier et d&apos;as&shy;sai&shy;nir la peau.
             </p>
           </li>
           <li className='mb-10'>
@@ -70,7 +70,7 @@ const SoinsVisageScreen: FC = () => {
               <h5 className={`${italianno.className} text-4xl underline-offset-4 tracking-wider`}><u>Etape 4 :</u> Le modelage</h5>
             </div>
             <p className={`${karla.className} pl-5 text-xl lg:text-2xl leading-10 indent-5 text-justify italic`}>
-              Il rend la peau plus jeu&shy;ne, plus dou&shy;ce, plus fer&shy;me et plus bel&shy;le. Le mas&shy;sage du vi&shy;sage re&shy;lâ&shy;che les ten&shy;sions, rend les ri&shy;des moins ap&shy;pa&shy;ren&shy;tes, sti&shy;mu&shy;le la cir&shy;cu&shy;la&shy;tion san&shy;guine, res&shy;ser&shy;re les muscles du vis&shy;age, ré&shy;équi&shy;li&shy;bre l'hy&shy;dra&shy;ta&shy;tion, ré&shy;duits les im&shy;pu&shy;re&shy;tés et les toxines. Le soin vi&shy;sage ac&shy;croît l'é&shy;clat de la peau, dé&shy;tend les muscles et les traits du vi&shy;sa&shy;ge. 
+              Il rend la peau plus jeu&shy;ne, plus dou&shy;ce, plus fer&shy;me et plus bel&shy;le. Le mas&shy;sage du vi&shy;sage re&shy;lâ&shy;che les ten&shy;sions, rend les ri&shy;des moins ap&shy;pa&shy;ren&shy;tes, sti&shy;mu&shy;le la cir&shy;cu&shy;la&shy;tion san&shy;guine, res&shy;ser&shy;re les muscles du vis&shy;age, ré&shy;équi&shy;li&shy;bre l&apos;hy&shy;dra&shy;ta&shy;tion, ré&shy;duits les im&shy;pu&shy;re&shy;tés et les toxines. Le soin vi&shy;sage ac&shy;croît l&apos;é&shy;clat de la peau, dé&shy;tend les muscles et les traits du vi&shy;sa&shy;ge. 
             </p>
           </li>
           <li className='mb-10'>
@@ -79,7 +79,7 @@ const SoinsVisageScreen: FC = () => {
               <h5 className={`${italianno.className} text-4xl underline-offset-4 tracking-wider`}><u>Etape 5 :</u> Crème de soin</h5>
             </div>
             <p className={`${karla.className} pl-5 text-xl lg:text-2xl leading-10 indent-5 text-justify italic`}>
-              On termine par l'ap&shy;plica&shy;tion d'une crè&shy;me de soin pour hy&shy;dra&shy;ter la peau ré&shy;ta&shy;blir la cou&shy;che hy&shy;dro&shy;li&shy;pi&shy;di&shy;que de l'é&shy;pi&shy;der&shy;me. 
+              On termine par l&apos;ap&shy;plica&shy;tion d&apos;une crè&shy;me de soin pour hy&shy;dra&shy;ter la peau ré&shy;ta&shy;blir la cou&shy;che hy&shy;dro&shy;li&shy;pi&shy;di&shy;que de l&apos;é&shy;pi&shy;der&shy;me. 
             </p>
           </li>
         </ul>
@@ -100,7 +100,7 @@ const SoinsVisageScreen: FC = () => {
           className='w-full px-5 md:px-0 md:w-[650px] xl:w-[1100px] mx-auto mb-36 text-white'
         >
           <p className={`${karla.className} text-xl lg:text-2xl leading-10 indent-5 text-justify italic`}>
-            Il est recommandé d'effectuer un soin vi&shy;sage par une pro&shy;fes&shy;sion&shy;nel&shy;le une fois par mois. En ef&shy;fet, ce soin aug&shy;men&shy;te&shy;ra à cha&shy;que vi&shy;si&shy;te la sou&shy;ples&shy;se et l'hy&shy;dra&shy;ta&shy;tion de vo&shy;tre peau. Ain&shy;si vos pro&shy;duits de soins du quo&shy;ti&shy;dien se&shy;ront mieux ab&shy;sor&shy;bés et vous pour&shy;rez bé&shy;né&shy;fi&shy;cier au maxi&shy;mum de leurs bien&shy;aits.
+            Il est recommandé d&apos;effectuer un soin vi&shy;sage par une pro&shy;fes&shy;sion&shy;nel&shy;le une fois par mois. En ef&shy;fet, ce soin aug&shy;men&shy;te&shy;ra à cha&shy;que vi&shy;si&shy;te la sou&shy;ples&shy;se et l&apos;hy&shy;dra&shy;ta&shy;tion de vo&shy;tre peau. Ain&shy;si vos pro&shy;duits de soins du quo&shy;ti&shy;dien se&shy;ront mieux ab&shy;sor&shy;bés et vous pour&shy;rez bé&shy;né&shy;fi&shy;cier au maxi&shy;mum de leurs bien&shy;aits.
           </p>
         </motion.section>
       </InView>
@@ -122,7 +122,7 @@ const SoinsVisageScreen: FC = () => {
           </div>
           <Image src='/images/une-olive-en-provence.jpg' alt='logo de la marque une olive en provence' className='border-2 border-white rounded-md mx-auto mb-10' width={350} height={350} />
           <p className={`${varela.className} text-white text-xl md:text-2xl tracking-wide indent-5 text-justify lg:px-20`}>
-            <em className='leading-10'>Une olive en Provence, c'est une mar&shy;que lo&shy;ca&shy;le avec des pro&shy;duits de qua&shy;li&shy;té que j'ai sé&shy;lec&shy;tion&shy;né pour vous, et que j'u&shy;ti&shy;li&shy;se pour vos soins.</em>
+            <em className='leading-10'>Une olive en Provence, c&apos;est une mar&shy;que lo&shy;ca&shy;le avec des pro&shy;duits de qua&shy;li&shy;té que j&apos;ai sé&shy;lec&shy;tion&shy;né pour vous, et que j&apos;u&shy;ti&shy;li&shy;se pour vos soins.</em>
           </p>
         </motion.section>
       </InView>

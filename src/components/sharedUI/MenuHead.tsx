@@ -23,7 +23,7 @@ const MenuHead: FC = () => {
       <DropdownMenu display={!burger} setBurger={setBurger}/>
       <nav role="navigation" aria-label="navigation site Baux't des sens" className="w-full h-14 flex justify-between items-center bg-main-theme fixed z-50 py-2.5 px-10 border-b">
         <Link href="/">
-          <h1 className={`translate-y-1 tracking-wider text-white text-3xl ${mrsDelafield.className}`}>Baux't des sens</h1>
+          <h1 className={`translate-y-1 tracking-wider text-white text-3xl ${mrsDelafield.className}`}>Baux&apos;t des sens</h1>
         </Link>
         {
           width && width<900

@@ -25,7 +25,7 @@ const Presentation: FC = () => {
           initial='initial'
           animate={sectionInView? "appear":""} 
         >
-          Baux't des sens, c'est avant tout Julie...
+          Baux&apos;t des sens, c&apos;est avant tout Julie...
         </motion.h2>
 
         <motion.div className={`${karla.className} flex flex-col gap-y-5 mt-12`}>
@@ -61,7 +61,7 @@ const Presentation: FC = () => {
                 animate={sectionInView ? {opacity : 1, y:0} : ""} 
                 transition={{opacity : {delay : 1.75, duration: 0.8}, y:{delay:1.75, duration: 1, ease:"easeOut"}}}
               >
-                Bienvenue, je m'ap&shy;pel&shy;le Julie ! Je suis pas&shy;sionnée par le monde du bien-être depuis plu&shy;sieurs an&shy;nées et suis titu&shy;laire d'un diplô&shy;me d'es&shy;thé&shy;ti&shy;que en plus d'une forma&shy;tion en soins du corps, for&shy;ma&shy;tion suivie sur Avi&shy;gnon pendant plusieurs mois. 
+                Bienvenue, je m&apos;ap&shy;pel&shy;le Julie ! Je suis pas&shy;sionnée par le monde du bien-être depuis plu&shy;sieurs an&shy;nées et suis titu&shy;laire d&apos;un diplô&shy;me d&apos;es&shy;thé&shy;ti&shy;que en plus d&apos;une forma&shy;tion en soins du corps, for&shy;ma&shy;tion suivie sur Avi&shy;gnon pendant plusieurs mois. 
               </motion.p>
               <motion.p
                 className='my-2.5 flex gap-2.5 text-justify indent-5 tracking-wide leading-10'
@@ -69,7 +69,7 @@ const Presentation: FC = () => {
                 animate={sectionInView ? {opacity : 1, y:0} : ""} 
                 transition={{opacity : {delay :2, duration: 0.8}, y:{delay:2, duration: 1, ease:"easeOut"}}}
               >
-                Durant mes prestations, je n'ap&shy;porte pas seule&shy;ment un soin avec des manœu&shy;vres, des tech&shy;niques, du modelage et un mo&shy;ment de dé&shy;tente, non : j'aspire à beau&shy;coup mieux que cela. En effet, pour moi le bien-être se pré&shy;pare et s'invite. Tout est mis en œuvre, et tout est propice à ce que vous puis&shy;siez le recevoir dans les meilleures conditions.
+                Durant mes prestations, je n&apos;ap&shy;porte pas seule&shy;ment un soin a&shy;vec des manœu&shy;vres, des tech&shy;ni&shy;ques, du mo&shy;delage et un mo&shy;ment de dé&shy;tente, non : j&apos;aspire à beau&shy;coup mieux que cela. En ef&shy;fet, pour moi le bien-être se pré&shy;pare et s&apos;in&shy;vi&shy;te. Tout est mis en œuvre, et tout est pro&shy;pi&shy;ce à ce que vous puis&shy;siez le recevoir dans les meil&shy;leu&shy;res con&shy;di&shy;tions.
               </motion.p>
             </div>
             <motion.div

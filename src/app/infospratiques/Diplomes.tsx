@@ -46,7 +46,7 @@ const Diplomes: FC = () => {
           variants={variantsChildren}
         >
           <GiDiploma size={50} />
-          <span>Certificat d'apti&shy;tude pro&shy;fession&shy;nel&shy;le en esthé&shy;tique, cos&shy;méti&shy;que et parfu&shy;me&shy;rie</span>
+          <span>Certificat d&apos;apti&shy;tude pro&shy;fession&shy;nel&shy;le en esthé&shy;tique, cos&shy;méti&shy;que et parfu&shy;me&shy;rie</span>
         </motion.li>
         <motion.li 
           style={{borderTop: '2px double #797067', borderRight: "2px double #797067", borderBottom: '2px double #797067',borderLeft:'10px solid #797067'}} 

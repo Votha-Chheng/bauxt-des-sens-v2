@@ -30,7 +30,7 @@ const MassageBambouScreen: FC = () => {
           className='leading-[5rem]'
         >
           <p style={{lineHeight:"2.5rem"}} className={`${karla.className} px-5 sm:px-0 text-white text-xl lg:text-2xl indent-5 italic tracking-wide text-justify my-16`}>
-            Fait à l'aide de bâtons de bam&shy;bou chauf&shy;fés et huilés, le massage aux bam&shy;bous est un trai&shy;te&shy;ment intra&shy;musculaire pro&shy;fond puis&shy;qu'il per&shy;met d'ac&shy;centuer les mouvements du mas&shy;so&shy;thé&shy;rapeu&shy;te. Bois lé&shy;ger mais ro&shy;buste, le bam&shy;bou offre de mul&shy;tiples effets thé&shy;rapeu&shy;tiques en dis&shy;persant les tensions et en li&shy;bérant les énergies.
+            Fait à l&apos;aide de bâtons de bam&shy;bou chauf&shy;fés et huilés, le massage aux bam&shy;bous est un trai&shy;te&shy;ment intra&shy;musculaire pro&shy;fond puis&shy;qu&apos;il per&shy;met d&apos;ac&shy;centuer les mouvements du mas&shy;so&shy;thé&shy;rapeu&shy;te. Bois lé&shy;ger mais ro&shy;buste, le bam&shy;bou offre de mul&shy;tiples effets thé&shy;rapeu&shy;tiques en dis&shy;persant les tensions et en li&shy;bérant les énergies.
           </p>
           <div className="relative w-96 h-72 mx-auto border-2 border-white rounded-md overflow-hidden mt-16 mb-24">
             <Image src="/images/massage-bambous.jpg" alt='massage avec bambous' fill/>
@@ -44,7 +44,7 @@ const MassageBambouScreen: FC = () => {
               </div>
             </div>
             <p style={{lineHeight:"2.5rem", fontStyle:'italic'}} className={`${varela.className} text-white text-xl lg:text-2xl indent-5 tracking-wide text-justify mb-16`}>
-              Les personnes ayant des pro&shy;blèmes cardio&shy;vasculaires ou de cir&shy;culations tel&shy;les que phlébite ou varices ainsi que les per&shy;son&shy;nes souf&shy;frant de trou&shy;bles rénaux, d’hy&shy;per&shy;tension ou de dia&shy;bète de&shy;vraient con&shy;sul&shy;ter l’avis d’un mé&shy;decin avant de re&shy;cevoir ce soin. Le mas&shy;sage aux bam&shy;bous est éga&shy;lement dé&shy;con&shy;seillé en cas de fièvre ou de gros&shy;sesse.
+              Les personnes ayant des pro&shy;blèmes cardio&shy;vasculaires ou de cir&shy;culations tel&shy;les que phlébite ou varices ainsi que les per&shy;son&shy;nes souf&shy;frant de trou&shy;bles rénaux, d&apos;hy&shy;per&shy;tension ou de dia&shy;bète de&shy;vraient con&shy;sul&shy;ter l&apos;avis d&apos;un mé&shy;decin avant de re&shy;cevoir ce soin. Le mas&shy;sage aux bam&shy;bous est éga&shy;lement dé&shy;con&shy;seillé en cas de fièvre ou de gros&shy;sesse.
             </p>
           </div>
         </motion.article>

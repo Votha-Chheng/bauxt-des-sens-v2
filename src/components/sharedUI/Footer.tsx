@@ -34,7 +34,7 @@ const Footer: FC = () => {
         }
       </div>
       <div className={`mb-3 mx-auto mt-12 pt-2.5 text-center font-bold border-t border-black ${karla.className}`}>
-        Copyright - Juillet 2021 &copy; Baux'T des sens
+        Copyright - Juillet 2021 &copy; Baux`&apos;T des sens
       </div>
     </footer>
   );

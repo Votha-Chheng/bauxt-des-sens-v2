@@ -57,13 +57,13 @@ const Approche: FC = () => {
             <FaQuoteLeft className='text-main-theme'/>
             <div style={{lineHeight:'2.5rem'}} className={`${karla.className} text-main-theme font-bold lg:font-normal text-xl lg:text-2xl tracking-wide italic text-justify`}>
               <p className='indent-5 mb-2.5'>
-                Ma priorité est de vous mettre à l'aise dès le premier échange et de res&shy;pecter votre intimité afin que vous puissiez vous détendre, res&shy;sentir le lâcher prise pour ainsi profiter du mo&shy;ment dans son intégra&shy;lité. 
+                Ma priorité est de vous mettre à l&apos;aise dès le premier échange et de res&shy;pecter votre intimité afin que vous puissiez vous détendre, res&shy;sentir le lâcher prise pour ainsi profiter du mo&shy;ment dans son intégra&shy;lité. 
               </p>
               <p className="indent-5 mb-2.5">
-                Il est parfois difficile de se laisser aller auprès d'une nouvel&shy;le pra&shy;ticien&shy;ne, cela peut pren&shy;dre du temps et se faire sur plusieurs rendez-vous. Je prends le temps né&shy;ces&shy;saire à chacun car nous pas&shy;sons par la con&shy;fiance, le confort et la sécu&shy;rité, senti&shy;ments in&shy;dis&shy;pen&shy;sa&shy;bles qui vous permet&shy;tront de savou&shy;rer les bien&shy;faits des soins que je vous apporte.
+                Il est parfois difficile de se laisser aller auprès d&apos;une nouvel&shy;le pra&shy;ticien&shy;ne, cela peut pren&shy;dre du temps et se faire sur plusieurs rendez-vous. Je prends le temps né&shy;ces&shy;saire à chacun car nous pas&shy;sons par la con&shy;fiance, le confort et la sécu&shy;rité, senti&shy;ments in&shy;dis&shy;pen&shy;sa&shy;bles qui vous permet&shy;tront de savou&shy;rer les bien&shy;faits des soins que je vous apporte.
               </p>
               <p className="indent-5 mb-2.5">
-                Une musique vous inci&shy;tera à la relaxation ainsi qu'une huile aux odeurs exotique et paradisiaque com&shy;me le monoi, la coco, le jasmin, ou encore la fleur d'oranger. Vous l'aurez com&shy;pris, il y en aura pour tous les sens...
+                Une musique vous inci&shy;tera à la relaxation ainsi qu&apos;une huile aux odeurs exotique et paradisiaque com&shy;me le monoi, la coco, le jasmin, ou encore la fleur d&apos;oranger. Vous l&apos;aurez com&shy;pris, il y en aura pour tous les sens...
               </p>
             </div>
             <FaQuoteRight className='text-main-theme self-end -translate-y-2.5'/>

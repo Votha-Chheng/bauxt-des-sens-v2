@@ -29,7 +29,7 @@ const MassageBougieScreen: FC = () => {
         <article className="flex text-xl px-5 lg-px-0 lg:text-2xl text-white italic ">
           <div className='min-w-[4px] min-h-full bg-pink rounded-md'/>
           <p className={`${karla.className} pl-5 indent-5 text-justify leading-10 tracking-wide`}>
-            Ce type de massage réalisé sur l'en&shy;sem&shy;ble du corps est ré&shy;puté pour sa capacité à dé&shy;ten&shy;dre les muscles et à sup&shy;primer les ten&shy;sions dues au stress. Ori&shy;ginai&shy;re de Thaï&shy;lande, il reste en&shy;core assez mécon&shy;nu en Oc&shy;cident. L’huile est ap&shy;pli&shy;quée sur tout le corps par de longs mou&shy;vements flui&shy;des. 
+            Ce type de massage réalisé sur l&apos;en&shy;sem&shy;ble du corps est ré&shy;puté pour sa capacité à dé&shy;ten&shy;dre les muscles et à sup&shy;primer les ten&shy;sions dues au stress. Ori&shy;ginai&shy;re de Thaï&shy;lande, il reste en&shy;core assez mécon&shy;nu en Oc&shy;cident. L’huile est ap&shy;pli&shy;quée sur tout le corps par de longs mou&shy;vements flui&shy;des. 
           </p>
         </article>
       </motion.section>
@@ -41,7 +41,7 @@ const MassageBougieScreen: FC = () => {
       >
         <article className="flex text-xl lg:text-2xl px-5 lg-px-0 text-white italic ">
           <p className={`${karla.className} pr-5 indent-5 text-justify leading-10 tracking-wide`}>
-            Les bougies de massage sont des bou&shy;gies spécifiques, 100% naturelles à base de cire végétale ou d’abeil&shy;les et enri&shy;chies en huiles es&shy;sentiel&shy;les, senteurs pro&shy;pices à la dé&shy;con&shy;trac&shy;tion. La fonte de la bou&shy;gie pro&shy;duit de la cire li&shy;quide qui se transforme en huile de mas&shy;sage hy&shy;dra&shy;tante. Avec un parfum agré&shy;able, des vertus a&shy;dou&shy;cis&shy;san&shy;tes et nour&shy;ris&shy;san&shy;tes pour la peau, ce mas&shy;sage est conseil&shy;lé pour les peaux sèches et sen&shy;sibles. De plus, la douce sen&shy;sation de la ci&shy;re tiède sur la peau en fait un mas&shy;sage idéal pour l'hiver. 
+            Les bougies de massage sont des bou&shy;gies spécifiques, 100% naturelles à base de cire végétale ou d&apos;abeil&shy;les et enri&shy;chies en huiles es&shy;sentiel&shy;les, senteurs pro&shy;pices à la dé&shy;con&shy;trac&shy;tion. La fonte de la bou&shy;gie pro&shy;duit de la cire li&shy;quide qui se transforme en huile de mas&shy;sage hy&shy;dra&shy;tante. Avec un parfum agré&shy;able, des vertus a&shy;dou&shy;cis&shy;san&shy;tes et nour&shy;ris&shy;san&shy;tes pour la peau, ce mas&shy;sage est conseil&shy;lé pour les peaux sèches et sen&shy;sibles. De plus, la douce sen&shy;sation de la ci&shy;re tiède sur la peau en fait un mas&shy;sage idéal pour l&apos;hiver. 
           </p>
           <div className='min-w-[4px] min-h-full bg-pink rounded-md'/>
         </article>

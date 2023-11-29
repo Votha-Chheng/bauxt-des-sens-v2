@@ -1,5 +1,6 @@
 import { titleAnimation } from "@/@animations/titleAnimation";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { FC } from "react";
 
 const Partenaires: FC = () => {
@@ -28,38 +29,38 @@ const Partenaires: FC = () => {
       </motion.h2>
       <motion.ul className={`flex flex-wrap gap-5 justify-center m-0 p-0 items-center list-none`} variants={variantsAppear} initial="start" animate="fadeIn">
         <motion.li variants={variantsChildren}>
-          <img src="/images/chabran.jpg" width="360" alt="logo chabran"/>
+          <Image src="/images/chabran.jpg" width={360} height={360} alt="logo chabran"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/manville.jpg" width="320" alt="logo manville"/>
+          <Image src="/images/manville.jpg" width={320} height={320} alt="logo manville"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/bellesso.jpg" width="360" alt="logo hôtel belesso"/>
+          <Image src="/images/bellesso.jpg"  width={360} height={360} alt="logo hôtel belesso"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/maison_variétés.jpg" width="360" alt="logo maison des variétés"/>
+          <Image src="/images/maison_variétés.jpg"  width={360} height={360} alt="logo maison des variétés"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/mas_valentine.jpg" width="320" alt="logo mas valentine"/>
+          <Image src="/images/mas_valentine.jpg"  width={320} height={320} alt="logo mas valentine"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/baumaniere.jpg" width="360" alt="logo baumanière"/>
+          <Image src="/images/baumaniere.jpg"  width={360} height={360} alt="logo baumanière"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/vr.jpg" width="300" alt="logo vr"/>
+          <Image src="/images/vr.jpg" width={300} height={300} alt="logo vr"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/mas_des_fees.png" width="360" alt="logo mas des fées"/>
+          <Image src="/images/mas_des_fees.png"  width={360} height={360} alt="logo mas des fées"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/mas-couvin-logo.png" width="360" alt="logo mas du couvin"/>
+          <Image src="/images/mas-couvin-logo.png"  width={360} height={360} alt="logo mas du couvin"/>
         </motion.li>
         <motion.li variants={variantsChildren}>
-          <img src="/images/collectionist.jpg" width="360" alt="logo collectionist"/>
+          <Image src="/images/collectionist.jpg"  width={360} height={360} alt="logo collectionist"/>
         </motion.li>
         <motion.li className={`flex flex-col items-center`} variants={variantsChildren}>
           <a className="transition-all duration-200 ease-out hover:shadow-lg shadow-gray-400" href="https://www.myhomeconnexion.com/" target="_blank">
-            <img src="/images/home_connexion.jpg" width="300" alt="logo home connexion.jpg"/>
+            <Image src="/images/home_connexion.jpg" width={300} height={300} alt="logo home connexion.jpg"/>
           </a> 
           <small>(Cliquez sur le logo)</small>       
         </motion.li>

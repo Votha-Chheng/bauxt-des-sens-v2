@@ -4,6 +4,7 @@ import React, { FC } from 'react'
 import Partenaires from './Partenaires'
 import { motion } from 'framer-motion'
 import { titleAnimation } from '@/@animations/titleAnimation'
+import Image from 'next/image'
 
 const TemoignagesScreen: FC = () => {
   const tableauAvis = ["temoin1", "temoin2", "temoin3", "temoin4", "temoin5", "temoin6", "temoin7", "temoin8", "temoin9", "temoin10"]
@@ -36,13 +37,13 @@ const TemoignagesScreen: FC = () => {
     <main className={`py-14 bg-main-theme px-20`}>
       <Partenaires/>
       <motion.h2 className="home-titles" variants={titleAnimation} initial="initial" animate="appear" >
-        Baux't des sens, c'est encore les autres qui en parlent le mieux...
+        Baux&apos;t des sens, c&apos;est encore les autres qui en parlent le mieux...
       </motion.h2>
       <motion.div className="flex gap-8 flex-wrap justify-center w-full min-h-[250px]" variants={parentAvis} initial="initial" animate="animate">
         {
           tableauAvis.map((avis, idx)=>
             <motion.div variants={childAvis} className="avis" key={idx}>
-              <img src={`/images/${avis}.jpg`} width="300"/>
+              <Image src={`/images/${avis}.jpg`} alt='avis' width={300} height={300} />
             </motion.div>
           )
         }

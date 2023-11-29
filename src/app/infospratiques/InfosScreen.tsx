@@ -20,7 +20,7 @@ const InfosScreen: FC = () => {
   return (  
     <>
       <Head>
-        <title>Baux't des sens | Horaires - Contact - Rendez-vous - Arles Alpilles</title>
+        <title>Baux&apos;t des sens | Horaires - Contact - Rendez-vous - Arles Alpilles</title>
       </Head>
       <main className={`bg-main-theme py-14 `}>
         <Diplomes/>
@@ -40,14 +40,14 @@ const InfosScreen: FC = () => {
               <div style={{backgroundSize: 'cover', clipPath:"polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 89%, 0 10%)"}} className="bg-black w-[900px] h-[1150px] relative my-0 mx-auto">
                 <div style={{clipPath:' polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 89%, 0 10%)'}} className="w-[885px] h-[1142px] bg-white absolute top-1 left-2">
                   <h3 className={`text-center text-pink text-6xl leading-10 border-b border-pink w-[520px] -pb-[200px] mt-20 mx-auto mb-0 ${mrsDelafield.className}`}>
-                    Baux't des sens
+                    Baux&apos;t des sens
                   </h3>
                   <div className="flex items-center w-[850px] min-h-[250px] mx-auto pt-16 px-12 pb-0 gap-5">
                     <div className="min-w-[200px] relative h-56 overflow-hidden border border-black flex-nowrap rounded-xl">
                       <Image src="/images/portrait-2.jpg" fill alt="portrait" className="transition-all duration-200 ease-out hover:scale-110" />
                     </div>
                     <div className={`text-black shadow-md shadow-white ${karla.className} border-l-8 border-pink pl-2.5 text-justify text-lg w-full relative my-0 mx-2.5 italic`}>
-                      Les soins que j'apporte sont issus d'une formation où j'ai appris de multiples techniques profes&shy;sion&shy;nelles. La qualité de mes massages se démar&shy;que par l'in&shy;tention particulière, la bi&shy;en&shy;veillance et l'é&shy;nergie que j'y mets. Mon but étant de vous ap&shy;porter un moment unique et sur-mesure grâce à mon attention, ma disponibilité et mon écoute.
+                      Les soins que j&apos;apporte sont issus d&apos;une formation où j&apos;ai appris de multiples techniques profes&shy;sion&shy;nelles. La qualité de mes massages se démar&shy;que par l&apos;in&shy;tention particulière, la bi&shy;en&shy;veillance et l&apos;é&shy;nergie que j&apos;y mets. Mon but étant de vous ap&shy;porter un moment unique et sur-mesure grâce à mon attention, ma disponibilité et mon écoute.
                     </div>
                   </div>
                   <div className={`${playfair.className} text-center font-bold text-3xl w-1/2 my-12 mx-auto text-pink`}>

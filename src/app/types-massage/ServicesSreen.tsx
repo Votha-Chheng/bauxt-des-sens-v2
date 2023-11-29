@@ -13,7 +13,7 @@ const ServicesScreen: FC = () => {
       <h2 className='home-titles'>Mes types de massage</h2>
       <section className='md:px-20'>
         <p style={{lineHeight:'2.5rem'}} className={`${karla.className} text-white text-xl lg:text-2xl indent-5 text-justify italic mb-10`}>
-          Vous retrouverez dans cette sec&shy;tion la des&shy;crip&shy;tion des dif&shy;fé&shy;rents ty&shy;pes de mas&shy;sage et ser&shy;vi&shy;ces que je vous pro&shy;po&shy;se. N'hé&shy;si&shy;tez pas à me con&shy;tacter par té&shy;lé&shy;pho&shy;ne pour en sa&shy;voir plus ou pour un ser&shy;vice sur-me&shy;sure et adap&shy;té.
+          Vous retrouverez dans cette sec&shy;tion la des&shy;crip&shy;tion des dif&shy;fé&shy;rents ty&shy;pes de mas&shy;sage et ser&shy;vi&shy;ces que je vous pro&shy;po&shy;se. N&apos;hé&shy;si&shy;tez pas à me con&shy;tacter par té&shy;lé&shy;pho&shy;ne pour en sa&shy;voir plus ou pour un ser&shy;vice sur-me&shy;sure et adap&shy;té.
         </p>
         <ul className='pl-10'>
           {

@@ -56,10 +56,10 @@ const ServiceDomicile: FC = () => {
                 </motion.div>
                 <motion.div className={`${karla.className} indent-5 text-white text-xl lg:text-2xl tracking-wide px-5 italic text-justify`} variants={childAppear} >
                   <p className='my-5 leading-10'>
-                    Quoi de mieux que de se faire masser sans avoir à se déplacer ? Avec <span className="marque">Baux't des sens</span>, c'est le bien-être et la détente qui viennent chez vous ! C'est pour&shy;quoi je me déplace <u>uniquement</u> à domicile, dans les gîtes ou les hôtels sur Arles, dans les Alpilles et aux alentours. Et ce, avec tout le matériel nécessaire (ta&shy;ble de massage, linge, etc...). Tout ce qui vous reste donc à faire, c'est vous allonger et vous laisser aller...
+                    Quoi de mieux que de se faire masser sans avoir à se déplacer ? Avec <span className="marque">Baux`&apos;t des sens</span>, c`&apos;est le bien-être et la détente qui viennent chez vous ! C`&apos;est pour&shy;quoi je me déplace <u>uniquement</u> à domicile, dans les gîtes ou les hôtels sur Arles, dans les Alpilles et aux alentours. Et ce, avec tout le matériel nécessaire (ta&shy;ble de massage, linge, etc...). Tout ce qui vous reste donc à faire, c`&apos;est vous allonger et vous laisser aller...
                   </p>
                   <p className='my-5 leading-10 '>
-                    Baux'T des Sens intervient aussi pour vos évènements  tels que les anni&shy;ver&shy;saires, les enter&shy;rements de vie de jeune fille/garçon ou les re&shy;trai&shy;tes yoga... N'hési&shy;tez pas à me contacter di&shy;recte&shy;ment pour un ser&shy;vice sur-mesure et adapté.
+                    Baux`&apos;T des Sens intervient aussi pour vos évènements  tels que les anni&shy;ver&shy;saires, les enter&shy;rements de vie de jeune fille/garçon ou les re&shy;trai&shy;tes yoga... N&apos;hési&shy;tez pas à me contacter di&shy;recte&shy;ment pour un ser&shy;vice sur-mesure et adapté.
                   </p>
                 </motion.div>
               </div>
@@ -91,10 +91,10 @@ const ServiceDomicile: FC = () => {
                 </div>
               </div>
               <p className={`${varela.className} tracking-wide text-lg lg:text-2xl text-center leading-10 mb-5 text-white px-5`}>
-                Baux't des Sens intervient aussi <u><em><b>en entreprise sur vos lieux de travail</b></em></u> pour prendre soin de vos salariés. Mais aussi dans les <u><em><b>résidences seniors</b></em></u> pour prendre soin de vos pensionnaires et leur rendre la vie plus agréable.
+                Baux`&apos;t des Sens intervient aussi <u><em><b>en entreprise sur vos lieux de travail</b></em></u> pour prendre soin de vos salariés. Mais aussi dans les <u><em><b>résidences seniors</b></em></u> pour prendre soin de vos pensionnaires et leur rendre la vie plus agréable.
               </p>
               <p className={`${varela.className}  text-lg tracking-wide lg:text-2xl text-center leading-10 mb-5 text-white px-5`}>
-                N'hésitez pas à prendre contact, toutes les demandes sont possibles, dans la limite imposée par mon emploi du temps évidemment.
+                N`&apos;hésitez pas à prendre contact, toutes les demandes sont possibles, dans la limite imposée par mon emploi du temps évidemment.
               </p>
             </motion.article>
             <motion.div className='flex flex-col items-center' variants={childAppear} >

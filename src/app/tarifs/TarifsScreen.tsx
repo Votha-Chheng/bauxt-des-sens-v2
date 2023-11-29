@@ -54,7 +54,7 @@ const TarifsScreen: FC = () => {
   return (   
     <>
       <Head>
-        <title>Baux't des sens | Prestations massages et yoga Arles et Alpilles</title>
+        <title>Baux&apos;t des sens | Prestations massages et yoga Arles et Alpilles</title>
       </Head>
 
       <main className="py-14 px-10 lg:px-20 bg-main-theme">
