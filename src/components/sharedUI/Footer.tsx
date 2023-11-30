@@ -35,7 +35,7 @@ const Footer: FC = () => {
         }
       </div>
       <div className={`mb-3 mx-auto mt-12 pt-2.5 text-center font-bold border-t border-black text-black ${karla.className}`}>
-        Copyright - Juillet 2021 &copy; Baux&apos;T des Sens/<Link href='https://github.com/Votha-Chheng' target="_blank">Votha Chheng</Link>
+        <small>Copyright - Novembre 2023 &copy; Baux&apos;T des Sens/<Link href='https://github.com/Votha-Chheng' target="_blank">Votha Chheng</Link></small>
       </div>
     </footer>
   );
