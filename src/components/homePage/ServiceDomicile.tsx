@@ -8,7 +8,6 @@ import { karla } from '@/fonts/karla'
 import { parisienne } from '@/fonts/parisienne'
 import { varela } from '@/fonts/varela'
 import ModalImage from '../sharedUI/ModalImage'
-import { useWindowSize } from '@uidotdev/usehooks'
 
 const ServiceDomicile: FC = () => {
   const [sectionInView, setSectionInView] = useState<boolean>(false)
@@ -56,10 +55,10 @@ const ServiceDomicile: FC = () => {
                 </motion.div>
                 <motion.div className={`${karla.className} indent-5 text-white text-xl lg:text-2xl tracking-wide px-5 italic text-justify`} variants={childAppear} >
                   <p className='my-5 leading-10'>
-                    Quoi de mieux que de se faire masser sans avoir à se déplacer ? Avec <span className="marque">Baux`&apos;t des sens</span>, c`&apos;est le bien-être et la détente qui viennent chez vous ! C`&apos;est pour&shy;quoi je me déplace <u>uniquement</u> à domicile, dans les gîtes ou les hôtels sur Arles, dans les Alpilles et aux alentours. Et ce, avec tout le matériel nécessaire (ta&shy;ble de massage, linge, etc...). Tout ce qui vous reste donc à faire, c`&apos;est vous allonger et vous laisser aller...
+                    Quoi de mieux que de se fai&shy;re mas&shy;ser sans a&shy;voir à se dé&shy;pla&shy;cer ? Avec <span className="marque">Baux&apos;t des sens</span>, c&apos;est le bi&shy;en-être et la dé&shy;ten&shy;te qui vien&shy;nent chez vous ! C&apos;est pour&shy;quoi je me dé&shy;pla&shy;ce <u>u&shy;ni&shy;que&shy;ment</u> à do&shy;mi&shy;ci&shy;le, dans les gî&shy;tes ou les hô&shy;tels sur Arles, dans les Alpilles et aux a&shy;len&shy;tours. Et ce, avec tout le ma&shy;té&shy;riel né&shy;ces&shy;sai&shy;re (ta&shy;ble de mas&shy;sa&shy;ge, lin&shy;ge, etc...). Tout ce qui vous reste donc à fai&shy;re, c&apos;est vous al&shy;lon&shy;ger et vous lais&shy;ser al&shy;ler...
                   </p>
                   <p className='my-5 leading-10 '>
-                    Baux`&apos;T des Sens intervient aussi pour vos évènements  tels que les anni&shy;ver&shy;saires, les enter&shy;rements de vie de jeune fille/garçon ou les re&shy;trai&shy;tes yoga... N&apos;hési&shy;tez pas à me contacter di&shy;recte&shy;ment pour un ser&shy;vice sur-mesure et adapté.
+                    Baux&apos;T des Sens in&shy;ter&shy;vient aus&shy;si pour vos évène&shy;ments  tels que les anni&shy;ver&shy;sai&shy;res, les en&shy;ter&shy;re&shy;ments de vie de jeu&shy;ne fille/gar&shy;çon ou les re&shy;trai&shy;tes yoga... N&apos;hési&shy;tez pas à me con&shy;tacter di&shy;recte&shy;ment pour un ser&shy;vi&shy;ce sur-me&shy;sure et a&shy;dapté.
                   </p>
                 </motion.div>
               </div>
@@ -91,10 +90,10 @@ const ServiceDomicile: FC = () => {
                 </div>
               </div>
               <p className={`${varela.className} tracking-wide text-lg lg:text-2xl text-center leading-10 mb-5 text-white px-5`}>
-                Baux`&apos;t des Sens intervient aussi <u><em><b>en entreprise sur vos lieux de travail</b></em></u> pour prendre soin de vos salariés. Mais aussi dans les <u><em><b>résidences seniors</b></em></u> pour prendre soin de vos pensionnaires et leur rendre la vie plus agréable.
+                Baux&apos;T des Sens intervient aussi <u><em><b>en en&shy;tre&shy;pri&shy;se sur vos lieux de tra&shy;vail</b></em></u> pour pren&shy;dre soin de vos sa&shy;la&shy;riés. Mais aus&shy;si dans les <u><em><b>ré&shy;si&shy;den&shy;ces seniors</b></em></u> pour pren&shy;dre soin de vos pen&shy;sion&shy;nai&shy;res et leur ren&shy;dre la vie plus a&shy;gré&shy;able.
               </p>
               <p className={`${varela.className}  text-lg tracking-wide lg:text-2xl text-center leading-10 mb-5 text-white px-5`}>
-                N`&apos;hésitez pas à prendre contact, toutes les demandes sont possibles, dans la limite imposée par mon emploi du temps évidemment.
+                N&apos;hési&shy;tez pas à pren&shy;dre con&shy;tact, tou&shy;tes les de&shy;man&shy;des sont pos&shy;si&shy;bles, dans la li&shy;mi&shy;te im&shy;po&shy;sée par mon em&shy;ploi du temps évi&shy;dem&shy;ment.
               </p>
             </motion.article>
             <motion.div className='flex flex-col items-center' variants={childAppear} >

@@ -15,6 +15,7 @@ const Anchor:FC = () => {
   const down = useRef<HTMLDivElement>(null)
 
   const size = useWindowSize()
+  const { height } = size
 
   useEffect(()=> {
     if(anchorRef.current){
@@ -71,19 +72,21 @@ const Anchor:FC = () => {
         initial='initial'
         animate='animate'
       />
-
-      <motion.div 
-        className="overflow-hidden absolute z-30 left-1/2 -translate-x-1/2 bottom-12 lg:right-20 lg:left-auto flex flex-col items-center text-white cursor-pointer" 
-        initial={{opacity:0}} 
-        animate={{opacity:1}} 
-        transition={{opacity : {delay:3}}} 
-        onClick={()=>window.scrollTo({top: anchorHeight, left:0, behavior: 'smooth' })}
-      >
-        <svg className='arrow-anim' width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-          <path d="M 15 4 L 15 24.0625 L 8.21875 17.28125 L 6.78125 18.71875 L 15.28125 27.21875 L 16 27.90625 L 16.71875 27.21875 L 25.21875 18.71875 L 23.78125 17.28125 L 17 24.0625 L 17 4 Z" fill="grey"/>
-        </svg>
-        <small className='text-base italic text-gray-300'>Explorez</small>
-      </motion.div>
+      {
+        height && height>750 &&
+        <motion.div 
+          className="overflow-hidden absolute z-30 left-1/2 -translate-x-1/2 bottom-12 lg:right-20 lg:left-auto flex flex-col items-center text-white cursor-pointer" 
+          initial={{opacity:0}} 
+          animate={{opacity:1}} 
+          transition={{opacity : {delay:3}}} 
+          onClick={()=>window.scrollTo({top: anchorHeight, left:0, behavior: 'smooth' })}
+        >
+          <svg className='arrow-anim' width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 15 4 L 15 24.0625 L 8.21875 17.28125 L 6.78125 18.71875 L 15.28125 27.21875 L 16 27.90625 L 16.71875 27.21875 L 25.21875 18.71875 L 23.78125 17.28125 L 17 24.0625 L 17 4 Z" fill="grey"/>
+          </svg>
+          <small className='text-base italic text-gray-300'>Explorez</small>
+        </motion.div>
+      }
     </section>
   )
 }

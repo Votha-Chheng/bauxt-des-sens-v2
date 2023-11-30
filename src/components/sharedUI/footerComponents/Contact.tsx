@@ -4,13 +4,13 @@ import { FaPhone } from 'react-icons/fa6'
 
 const Contact: FC = () => {
   return (
-    <section className="flex flex-col items-center px-10 pt-6 ">
+    <section className="flex flex-col items-center px-10 pt-6 text-black">
       <h2 className={`text-lg text-center text-black ${karla.className} underline underline-offset-4 translate-y-6 translate-x-4 font-bold`}>Contact & prise de RDV</h2>
       <ul 
         style={{borderLeft: '6px solid #285330', borderRadius: '50%'}} 
         className={`${karla.className} pt-14 pl-12 w-96 h-60 border-r-transparent border-t-transparent border-deep-green border text-lg flex flex-col gap-5`}
       >
-        <li className={`font-bold ${karla.className}`}>
+        <li className={`font-bold ${karla.className} `}>
           <a href="tel:0616838962" className="flex gap-2 items-center">
             <FaPhone />
             <span>06 16 83 89 62</span>

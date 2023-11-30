@@ -5,7 +5,7 @@ import { MdCookie, MdPolicy } from 'react-icons/md'
 
 const MentionsLegalesFooter: FC = () => {
   return (
-    <section className="flex flex-col items-center px-10 pt-6">
+    <section className="flex flex-col items-center px-10 pt-6 text-black">
       <h2 className={`text-lg text-center text-black ${karla.className} underline underline-offset-4 translate-y-6 -translate-x-3 font-bold`}>Mentions légales</h2>
       <ul 
         style={{borderLeft: '6px solid #285330', borderRadius: '50%'}}
