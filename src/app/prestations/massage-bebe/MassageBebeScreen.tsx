@@ -17,7 +17,7 @@ const MassageBebeScreen: FC = () => {
           <h4 className={`${playfair.className} italic text-2xl md:text-4xl font-bold text-white tracking-wide my-2.5`}>Le massage pour bébé, un mode de communication à découvrir...</h4>
           <article className='flex flex-col-reverse items-center xl:flex-row gap-7 py-10 mb-10'>
             <div className='flex p-2.5'>
-              <div className=' min-w-[6px] bg-pink min-h-full rounded-md' />
+              {/* <div className=' min-w-[6px] bg-pink min-h-full rounded-md' /> */}
               <div className='px-5'>
                 <p style={{lineHeight:'2.5rem'}} className={`${karla.className} text-white text-xl lg:text-2xl indent-5 italic mb-5 tracking-wide text-justify`}>
                   L&apos;art du toucher, long&shy;temps tabou dans les pays occi&shy;den&shy;taux, est désor&shy;mais recon&shy;nu. Dès la nais&shy;sance, vous pouvez masser votre tout petit pour le sécuriser, l&apos;apaiser et déve&shy;lop&shy;per ses fa&shy;cultés mo&shy;trices.

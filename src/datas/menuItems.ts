@@ -2,9 +2,13 @@ import { MenuItem } from "@/@types/menuItem";
 
 export const menuItems: MenuItem[] = [
   {
-    nom:"Types de massage", 
-    path: 'types-massage',
+    nom:"Prestations", 
+    path: 'prestations',
     dropdown: [
+      {
+        nom:"Massage californien", 
+        path: 'massage-californien',
+      },
       {
         nom:"Massage bébé", 
         path: 'massage-bebe',

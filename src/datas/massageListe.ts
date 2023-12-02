@@ -57,7 +57,7 @@ export const massageListe: Prestation[] = [
       {
         service : "Massage personnalisé 60mn",
         prix : "90",
-        description : "Massage effectué selon vos demandes, pour un moment unique et sur mesure."
+        description : "Massage sur une zone de votre choix, effectué selon vos demandes pour un moment unique et sur mesure."
       }
     ]
   },

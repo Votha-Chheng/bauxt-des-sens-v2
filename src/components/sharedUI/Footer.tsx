@@ -1,12 +1,8 @@
 'use client'
 
 import { karla } from "@/fonts/karla";
-import { parisienne } from "@/fonts/parisienne";
 import { useWindowSize } from "@uidotdev/usehooks";
-import Image from "next/image";
 import { FC } from "react";
-import { FaPhone } from "react-icons/fa6";
-import { MdCookie, MdPolicy } from "react-icons/md";
 import Contact from "./footerComponents/Contact";
 import LogoFooter from "./footerComponents/LogoFooter";
 import MentionsLegalesFooter from "./footerComponents/MentionsLegalesFooter";

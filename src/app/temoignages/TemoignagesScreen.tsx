@@ -7,7 +7,7 @@ import { titleAnimation } from '@/@animations/titleAnimation'
 import Image from 'next/image'
 
 const TemoignagesScreen: FC = () => {
-  const tableauAvis = ["temoin1", "temoin2", "temoin3", "temoin4", "temoin5", "temoin6", "temoin7", "temoin8", "temoin9", "temoin10"]
+  const tableauAvis = ["temoin8", "temoin9", "temoin10"]
 
   const parentAvis = {
     animate: {

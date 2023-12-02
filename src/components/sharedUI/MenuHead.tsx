@@ -49,7 +49,7 @@ const MenuHead: FC = () => {
                     <div 
                       id={index.toString()} 
                       key={item.nom}
-                      className="absolute w-[150%] bg-white text-main-theme top-8 left-1/2 -translate-x-1/2 border border-black" 
+                      className="absolute w-[200%] bg-white text-main-theme top-8 left-1/2 -translate-x-1/2 border border-black" 
                       onMouseEnter={(event: MouseEvent)=> setDropdownDisplayed(event.currentTarget.id)}
                       onMouseLeave={(event: MouseEvent)=> setDropdownDisplayed('')}
                     >

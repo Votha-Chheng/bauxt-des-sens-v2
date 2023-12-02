@@ -121,7 +121,7 @@ const SoinsVisageScreen: FC = () => {
           </div>
           <Image src='/images/une-olive-en-provence.jpg' alt='logo de la marque une olive en provence' className='border-2 border-white rounded-md mx-auto mb-10' width={350} height={350} />
           <p className={`${varela.className} text-white text-xl md:text-2xl tracking-wide indent-5 text-justify lg:px-20`}>
-            <em className='leading-10'>Une olive en Provence, c&apos;est une mar&shy;que lo&shy;ca&shy;le avec des pro&shy;duits de qua&shy;li&shy;té que j&apos;ai sé&shy;lec&shy;tion&shy;nés pour vous, et que j&apos;u&shy;ti&shy;li&shy;se pour vos soins.</em>
+            <em className='leading-10'>Une olive en Provence, c&apos;est une mar&shy;que lo&shy;ca&shy;le avec des pro&shy;duits de qua&shy;li&shy;té que j&apos;ai sé&shy;lec&shy;tion&shy;né pour vous, et que j&apos;u&shy;ti&shy;li&shy;se pour vos soins.</em>
           </p>
         </motion.section>
       </InView>
