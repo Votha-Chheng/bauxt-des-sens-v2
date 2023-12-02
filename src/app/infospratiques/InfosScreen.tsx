@@ -57,7 +57,7 @@ const InfosScreen: FC = () => {
                         Arles, les Alpilles et alentours
                       </div>
                       <div className={`${playfair.className} w-10/12 my-8 mx-auto text-center text-lg`}>
-                        Vous pouvez me joindre tous les jours de la semaine <b><em>de 9h à 19h</em></b>
+                        Vous pouvez me joindre du lundi au samedi <b><em>de 9h à 19h</em></b>
                         <div className={`${karla.className} my-6 mx-auto text-2xl transition-all duration-300 ease-out hover:scale-110`}>
                           <a href="tel:0616838962">06.16.83.89.62</a>
                         </div>
