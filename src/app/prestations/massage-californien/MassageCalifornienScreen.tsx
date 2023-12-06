@@ -10,7 +10,7 @@ import React, { FC } from 'react'
 
 const MassageCalifornienScreen:FC = () => {
   return (
-    <main className='py-14 bg-main-theme'>
+    <main className='py-14 bg-main-theme overflow-hidden'>
       <Hero title="massage californien" translateUp='-250' heroInView={true} image='118930618_372805930709061_72465373286677363_n.jpg' />
       <motion.section className="lg:px-20" variants={opacityBandeau} initial="initial" animate='animate' >
         <div className='p-2.5 md:px-10 xl:px-24'>

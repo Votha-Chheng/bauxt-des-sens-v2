@@ -10,6 +10,10 @@ export const menuItems: MenuItem[] = [
         path: 'massage-californien',
       },
       {
+        nom:"Massage personnalisé", 
+        path: 'massage-personnalise',
+      },
+      {
         nom:"Massage bébé", 
         path: 'massage-bebe',
       },

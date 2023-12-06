@@ -28,7 +28,7 @@ const Hero: FC<HeroProps> = ({ title, image, translateUp, heroInView }) => {
         <Image src={`/images/${image}`} alt={image} width={1920} height={1920} className="grayscale-[75%] blur-sm" style={width && width>1600 ? {transform:`translateY(${translateUp}px)`} : {}} /> 
       </motion.div>
       <motion.div variants={heroTitleAnimation} initial="initial" animate={controls} className="border-4 border-double border-main-theme absolute z-10 top-[80%] md:top-1/2 left-1/2 opacity-90 bg-white">
-        <h3 className={`${playfair.className} font-bold text-center text-main-theme w-80 md:w-[600px] h-20 md:h-36 translate-y-[30%] md:translate-y-1/4 text-2xl md:text-5xl uppercase italic`}>
+        <h3 className={`${playfair.className} font-bold text-center text-main-theme w-80 md:w-[640px] h-20 md:h-36 translate-y-[30%] md:translate-y-1/4 text-2xl md:text-5xl uppercase italic`}>
           {title}
         </h3>
       </motion.div>
