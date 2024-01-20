@@ -52,6 +52,16 @@ export const massageListe: Prestation[] = [
     ]
   },
   {
+    titre: 'Kobido',
+    massages: [
+      {
+        service : "Massage japonais du visage 60mn",
+        prix : "90",
+        description : "Soin liftant antirides. Stimule l’ensemble de la circulation sanguine du visage et du cou et améliore le teint de la peau"
+      }
+    ]
+  },
+  {
     titre: 'Personnalisé',
     massages: [
       {

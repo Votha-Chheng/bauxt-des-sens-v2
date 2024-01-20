@@ -19,7 +19,7 @@ const MassageCalifornienScreen:FC = () => {
             <div className='max-w-[400px] xl:min-h-full xl:max-w-[400px] xl:min-w-[400px] py-10'>
               <Image
                 src="/images/67172258_104448047544852_9029561800831533056_n.jpg" 
-                alt="massage bébé" 
+                alt="massage californien" 
                 width={600} 
                 height={600} 
                 className='border-2 border-white rounded-md '

@@ -20,7 +20,7 @@ const ServicesScreen: FC = () => {
               menuItems[0].dropdown && menuItems[0].dropdown.map((item: MenuItem, index: number)=> (
               <li className='my-5 flex gap-2.5 items-center' key={index}>
                 <FaFan className='fan' color='pink' />
-                <Link className={`${playfair.className} hover:text-orange-400 text-white text-2xl lg:text-3xl italic uppercase`} href={`/types-massage/${item.path}`}>
+                <Link className={`${playfair.className} hover:text-orange-400 text-white text-2xl lg:text-3xl italic uppercase`} href={`/prestations/${item.path}`}>
                   {item.nom}
                 </Link>
               </li>
