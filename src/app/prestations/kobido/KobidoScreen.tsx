@@ -46,7 +46,7 @@ const KobidoScreen: FC = () => {
 					<div className='min-w-0 lg:min-w-[6px] bg-pink min-h-full rounded-md' />
 					<div className='px-5'>
 					<p style={{lineHeight:'2.5rem'}} className={`${karla.className} text-white text-xl lg:text-2xl indent-5 italic mb-5 tracking-wide text-justify`}>
-						Le kobido est un savoir-faire an&shy;cestral de beau&shy;té pratiqué au Ja&shy;pon depuis le 15ème siècle pour as&shy;surer la jeu&shy;nesse du visa&shy;ge des femmes ja&shy;po&shy;naises. Ce soin lif&shy;tant anti&shy;rides sti&shy;mule l&apos;en&shy;sem&shy;ble de la cir&shy;cu&shy;lation san&shy;guine et éner&shy;gé&shy;ti&shy;que du vi&shy;sage et du cou.
+						Le kobido est un savoir-faire an&shy;cestral de beau&shy;té pratiqué au Ja&shy;pon depuis le 15ème siècle pour as&shy;surer la jeu&shy;nesse du visa&shy;ge des femmes ja&shy;po&shy;naises. Ce soin lif&shy;tant anti-ri&shy;des sti&shy;mu&shy;le l&apos;en&shy;sem&shy;ble de la cir&shy;cu&shy;lation san&shy;guine et éner&shy;gé&shy;ti&shy;que du vi&shy;sage et du cou.
 					</p>
 					<p style={{lineHeight:'2.5rem'}} className={`${karla.className} text-white text-xl lg:text-2xl indent-5 italic my-5 tracking-wide text-justify`}>
 						Il est exé&shy;cu&shy;té sous la for&shy;me de pe&shy;ti&shy;tes pres&shy;sions sur les mé&shy;ri&shy;diens du vi&shy;sa&shy;ge qui fa&shy;vo&shy;risent la li&shy;bé&shy;ra&shy;tion des blo&shy;cages énergé&shy;tiques et ap&shy;por&shy;tent une re&shy;la&shy;xa&shy;tion pro&shy;fonde. Une sti&shy;mu&shy;la&shy;tion de la lym&shy;phe fa&shy;ci&shy;li&shy;te l&apos;éva&shy;cua&shy;tion des toxi&shy;nes et pu&shy;ri&shy;fie la peau.
