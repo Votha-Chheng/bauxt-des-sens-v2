@@ -25,7 +25,7 @@ const PhotosScreen = () => {
                 height={550} 
                 className='border-4 rounded-sm border-white' 
                 placeholder='blur' 
-                blurDataURL={`mini-photos-${index+1}.jpg`} 
+                blurDataURL={`/images/mini-photos-${index+1}.jpg`} 
               />
             </div>
           ))
