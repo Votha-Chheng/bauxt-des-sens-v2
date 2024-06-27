@@ -40,6 +40,7 @@ const Anchor:FC = () => {
           fill
         />
       </motion.div>
+
       <motion.div 
         className={`${playfair.className} absolute text-center top-[550px] md:top-[675px] left-1/2 -translate-x-1/2 text-white overflow-hidden z-10 italic px-2.5`} 
         variants={variantsPhrases} 
@@ -72,6 +73,7 @@ const Anchor:FC = () => {
         initial='initial'
         animate='animate'
       />
+      {/* <Image src="/images/qrcodebtdessens.png" alt='QRCode menant vers la page Instagram @BAUXTDESSENS' width={125} height={125} className='absolute z-30 rounded-md -translate-x-1/2 left-1/2 bottom-' /> */}
       {
         height && height>750 &&
         <motion.div 

@@ -56,6 +56,10 @@ export const menuItems: MenuItem[] = [
     path: 'tarifs'
   },
   {
+    nom:"Photos", 
+    path: 'photos'
+  },
+  {
     nom:"Infos", 
     path: 'infospratiques'
   },
