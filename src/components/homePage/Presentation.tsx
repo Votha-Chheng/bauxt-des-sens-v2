@@ -39,7 +39,7 @@ const Presentation: FC = () => {
             }}
           >
             <Image 
-              src="/images/portrait-2.jpg" 
+              src="/images/portrait.jpeg" 
               alt='portrait de Julie Dumesnil'
               fill
               className='grayscale-[30%]'
@@ -59,7 +59,7 @@ const Presentation: FC = () => {
                 className='my-2.5 flex gap-2.5 text-justify indent-5 tracking-wide leading-10'
                 initial={{opacity:0, y :"100%"}} 
                 animate={sectionInView ? {opacity : 1, y:0} : ""} 
-                transition={{opacity : {delay : 1.75, duration: 0.8}, y:{delay:1.75, duration: 1, ease:"easeOut"}}}
+                transition={{opacity : {delay : 1.25, duration: 0.8}, y:{delay:1.25, duration: 0.6, ease:"easeOut"}}}
               >
                 Bienvenue, je m&apos;ap&shy;pel&shy;le Julie ! Je suis pas&shy;sionnée par le monde du bien-être depuis plu&shy;sieurs an&shy;nées et suis titu&shy;laire d&apos;un diplô&shy;me d&apos;es&shy;thé&shy;ti&shy;que en plus d&apos;une forma&shy;tion en soins du corps, for&shy;ma&shy;tion sui&shy;vie sur Avi&shy;gnon pen&shy;dant plu&shy;sieurs mois. 
               </motion.p>
