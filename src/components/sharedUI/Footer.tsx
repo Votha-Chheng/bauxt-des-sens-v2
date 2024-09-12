@@ -2,15 +2,22 @@
 
 import { karla } from "@/fonts/karla";
 import { useWindowSize } from "@uidotdev/usehooks";
-import { FC } from "react";
+import { FC, useEffect, useState } from "react";
 import Contact from "./footerComponents/Contact";
 import LogoFooter from "./footerComponents/LogoFooter";
 import MentionsLegalesFooter from "./footerComponents/MentionsLegalesFooter";
 import Link from "next/link";
 
 const Footer: FC = () => {
-  const { width } = useWindowSize()
+  const [start, setStart] = useState(false)
 
+  useEffect(()=> {
+    setStart(true)
+  }, [])
+
+  const { width } = useWindowSize()
+  
+  if(!start) return null
   return (
     <footer className="bg-silver border-t-4 border-black border-double overflow-hidden w-full">
       <div className={`flex ${width && width<1440 ? "flex-col gap-y-12" : "flex-row gap-x-32 justify-center"}`}>

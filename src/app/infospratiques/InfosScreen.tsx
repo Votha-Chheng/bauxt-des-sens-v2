@@ -13,6 +13,7 @@ import { parisienne } from "@/fonts/parisienne";
 import Image from "next/image";
 import { useWindowSize } from "@uidotdev/usehooks";
 import InfosScreenMini from "./InfosScreenMini";
+import Link from "next/link";
 
 const InfosScreen: FC = () => {  
   const { width } = useWindowSize()
@@ -57,11 +58,14 @@ const InfosScreen: FC = () => {
                         Arles, les Alpilles et alentours
                       </div>
                       <div className={`${playfair.className} w-10/12 my-8 mx-auto text-center text-lg`}>
-                        Vous pouvez me joindre du lundi au samedi <b><em>de 9h à 19h</em></b>
+                        Vous pouvez me joindre du lundi au samedi <b><em>de 9h à 19h</em></b> pour un simple renseignement, une demande particulière ou un rendez-vous. au :
                         <div className={`${karla.className} my-6 mx-auto text-2xl transition-all duration-300 ease-out hover:scale-110`}>
                           <a href="tel:0616838962">06.16.83.89.62</a>
                         </div>
-                        que ce soit pour un simple renseignement, une demande particulière ou un rendez-vous.
+                        Ou prendre directement RDV en ligne avec moi via la plateforme 
+                        <div className='mt-2 mb-5 text-xl'>
+                          <Link className={`${karla.className} underline italic underline-offset-4`} href="https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens">www.crenolibre.com</Link>
+                        </div>
                       </div>
                       <div className={`${parisienne.className} text-center text-5xl font-bold mb-7 text-pink`} >
                         Prenez soin de vous !

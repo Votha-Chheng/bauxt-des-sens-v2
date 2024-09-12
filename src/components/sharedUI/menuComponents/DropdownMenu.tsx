@@ -15,12 +15,19 @@ type DropdownMenuProps = {
 
 const DropdownMenu: FC<DropdownMenuProps> = ({ display, setBurger }) => {
   const [subMenu, setSubMenu] = useState<boolean>(false)
+  const [start, setStart] = useState<boolean>(false)
 
   const router = useRouter()
 
   useEffect(()=> {
     !display && setSubMenu(false)
   }, [display, setSubMenu])
+
+  useEffect(()=> {
+    setStart(true)
+  }, [])
+
+  if(!start) return null
 
   return (
     <ul

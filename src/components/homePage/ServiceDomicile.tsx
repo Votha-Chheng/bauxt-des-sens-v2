@@ -110,7 +110,7 @@ const ServiceDomicile: FC = () => {
           </motion.div>
         </InView>
         <InView onChange={(inView, entry)=> inView && setCurveInView(true)}>
-          <HomeCurveSeparation texte="prendre un rendez-vous" inView={curveInView} margin="0px 0px 75px"/>
+          <HomeCurveSeparation texte="prendre RDV en ligne" lien='https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens' inView={curveInView} margin="0px 0px 75px"/>
         </InView>
       </section>
     </>

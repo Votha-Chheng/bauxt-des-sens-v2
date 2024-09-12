@@ -1,9 +1,19 @@
+"use client"
+
 import { karla } from '@/fonts/karla'
 import { parisienne } from '@/fonts/parisienne'
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 
 const LogoFooter: FC = () => {
+  const [start, setStart] = useState(false)
+
+  useEffect(()=> {
+    setStart(true)
+  }, [])
+
+  if(!start) return null
+  
   return (
     <section className="flex flex-col items-center py-4 px-10 min-w-[400px] text-black">
       <Image src="/images/logo.svg" alt='logo de bauxt des sens' width={175} height={175}/>

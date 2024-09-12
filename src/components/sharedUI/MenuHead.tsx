@@ -4,7 +4,7 @@ import { karla } from "@/fonts/karla"
 import { mrsDelafield } from "@/fonts/mrsDelafield"
 import { useWindowSize } from "@uidotdev/usehooks"
 import Link from "next/link"
-import { FC, MouseEvent, useState } from "react"
+import { FC, MouseEvent, useEffect, useState } from "react"
 import Burger from "./menuComponents/Burger"
 import DropdownMenu from "./menuComponents/DropdownMenu"
 import { menuItems } from "@/datas/menuItems"
@@ -12,11 +12,18 @@ import { MenuItem } from "@/@types/menuItem"
 
 const MenuHead: FC = () => {
 
+  const [start, setStart] = useState(false)
   const [burger, setBurger] = useState(true)
   const [itemToDropDown, setItemToDropDown] = useState<string>('')
   const [dropdownDisplayed, setDropdownDisplayed] = useState<string>('')
 
   const { width } = useWindowSize()
+
+  useEffect(()=> {
+    setStart(true)
+  }, [])
+
+  if(!start) return null
 
   return (
     <>

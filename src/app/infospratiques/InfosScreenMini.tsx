@@ -4,6 +4,7 @@ import { mrsDelafield } from '@/fonts/mrsDelafield'
 import { parisienne } from '@/fonts/parisienne'
 import { playfair } from '@/fonts/playfair'
 import Image from 'next/image'
+import Link from 'next/link'
 import React, { FC } from 'react'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa6'
 
@@ -29,18 +30,21 @@ const InfosScreenMini: FC = () => {
               <FaQuoteRight className='self-end' />
             </p>
           </div>
-          <div className={`${playfair.className} text-center font-bold text-2xl w-1/2 my-12 mx-auto text-pink`}>
+          <div className={`${playfair.className} text-center font-bold text-2xl w-full my-12 mx-auto px-5 text-pink`}>
             Massages intuitifs & coaching de Hata yoga à domicile.
           </div>
               <div className={`${italianno.className} text-center text-4xl`}>
                 Arles, les Alpilles et alentours
               </div>
               <div className={`${playfair.className} w-10/12 my-8 mx-auto text-center text-lg`}>
-                Vous pouvez me joindre du lundi au samedi <b><em>de 9h à 19h</em></b> au :
+                Vous pouvez me joindre du lundi au samedi <b><em>de 9h à 19h</em></b> pour un simple renseignement, une demande particulière ou un rendez-vous. au :
                 <div className={`${karla.className} my-6 mx-auto text-2xl transition-all duration-300 ease-out hover:scale-110`}>
                   <a href="tel:0616838962">06.16.83.89.62</a>
                 </div>
-                que ce soit pour un simple renseignement, une demande particulière ou un rendez-vous.
+                Ou prendre directement RDV en ligne avec moi via la plateforme 
+                <div className='mt-2 mb-5 text-xl'>
+                  <Link className={`${karla.className} underline italic underline-offset-4`} href="https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens">www.crenolibre.com</Link>
+                </div>
               </div>
               <div className={`${parisienne.className} mb-5 text-center text-3xl text-pink`} >
                 Prenez soin de vous !
