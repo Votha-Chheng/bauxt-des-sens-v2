@@ -45,7 +45,7 @@ const Presentation: FC = () => {
           <ul>
             <li className={`${varela.className} tracking-wide text-lg lg:text-2xl text-left leading-10 my-8 text-white px-5 border-bottom-8 border-white flex`}>
               <FaLongArrowAltRight className='mr-2' size={40} />
-              <p>Retrouvez-moi maintenant au cabinet d'ostéopathie de Fontvieille, <Link className='underline italic underline-offset-4' href={"https://www.google.com/maps/place/59+Cr+Hyacinthe+Bellon,+13990+Fontvieille/@43.7268207,4.7081839,17z/data=!3m1!4b1!4m6!3m5!1s0x12b5dfc9689419b3:0x54050721b5ee9a6f!8m2!3d43.7268169!4d4.7107588!16s%2Fg%2F11b8v7tzj1?hl=fr&entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D"}>59 Cours Hyacinthe Bellon, Fontvieille (13990)</Link>.</p>
+              <p>Retrouvez-moi maintenant au cabinet d&apos;ostéopathie de Fontvieille, <Link className='underline italic underline-offset-4' href={"https://www.google.com/maps/place/59+Cr+Hyacinthe+Bellon,+13990+Fontvieille/@43.7268207,4.7081839,17z/data=!3m1!4b1!4m6!3m5!1s0x12b5dfc9689419b3:0x54050721b5ee9a6f!8m2!3d43.7268169!4d4.7107588!16s%2Fg%2F11b8v7tzj1?hl=fr&entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D"}>59 Cours Hyacinthe Bellon, Fontvieille (13990)</Link>.</p>
             </li>
             <li className={`${varela.className} tracking-wide text-lg lg:text-2xl text-left leading-10 my-8 text-white px-5 border-bottom-8 border-white flex`}>
               <FaLongArrowAltRight className='mr-2' size={40} />
