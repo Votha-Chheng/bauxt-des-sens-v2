@@ -19,10 +19,10 @@ const HomeScreen: FC = () => {
   if(!start) return null
 
   return (
-    <main className='bg-main-theme pb-20'>
+    <main className='bg-main-theme pb-32'>
       <Anchor/> 
       <Presentation/>
-      <ServiceDomicile/>
+      {/* <ServiceDomicile/> */}
       <Approche/>
       <VideoHomePage/>
       <MassageIntuitif/>
