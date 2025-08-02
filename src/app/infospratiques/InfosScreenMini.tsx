@@ -20,7 +20,7 @@ const InfosScreenMini: FC = () => {
         </h3>
           <div className="flex flex-col items-center w-full min-h-[250px] mx-auto pt-16 px-5 pb-0 gap-5">
             <div className="min-w-[200px] relative h-56 overflow-hidden border-2 border-black flex-nowrap rounded-xl">
-              <Image src="/images/portrait-2.jpg" fill alt="portrait" className="transition-all duration-200 ease-out hover:scale-110" />
+              <Image src="/images/portrait-3.jpg" width={200} height={450} alt="portrait" className="transition-all duration-200 ease-out hover:scale-110" />
             </div>              
             <p className={`text-black flex flex-col ${karla.className} border-l-8 border-pink pl-2.5 text-justify text-base w-full relative my-0 mx-2.5 italic`}>
               <FaQuoteLeft />

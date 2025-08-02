@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     icon: "/images/logo.png",
     },
   description: "A la recherche d'un massage ou d'un moment propice à la détente sur Arles et la région des Alpilles ?... Baux'T des sens vous propose des séances de massage à domicile et d'initiation au Hata yoga.",
+  title: "Baux'T des sens, massages sur Arles, Camargue, Alpilles et alentours",
+  keywords: ["massage", "yoga", "bien-être", "Arles", "Alpilles", "Baux de Provence", "Camargue"],
   openGraph: {
     title: "BauxT des sens, massages sur Arles, Camargue, Alpilles et alentours",
     description: "Baux'T des sens, massage à domicile et yoga Arles Alpilles & Baux de Provence.",

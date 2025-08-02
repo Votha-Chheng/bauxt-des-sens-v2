@@ -45,7 +45,7 @@ const InfosScreen: FC = () => {
                   </h3>
                   <div className="flex items-center w-[850px] min-h-[250px] mx-auto pt-16 px-12 pb-0 gap-5">
                     <div className="min-w-[200px] relative h-56 overflow-hidden border border-black flex-nowrap rounded-xl">
-                      <Image src="/images/portrait-2.jpg" fill alt="portrait" className="transition-all duration-200 ease-out hover:scale-110" />
+                      <Image src="/images/portrait-3.jpg" objectFit="cover" alt="portrait" className="transition-all duration-200 ease-out hover:scale-110" width={350} height={450} />
                     </div>
                     <div className={`text-black shadow-md shadow-white ${karla.className} border-l-8 border-pink pl-2.5 text-justify text-lg w-full relative my-0 mx-2.5 italic`}>
                       Les soins que j&apos;apporte sont issus d&apos;une formation où j&apos;ai appris de multiples techniques profes&shy;sion&shy;nelles. La qualité de mes massages se démar&shy;que par l&apos;in&shy;tention particulière, la bi&shy;en&shy;veillance et l&apos;é&shy;nergie que j&apos;y mets. Mon but étant de vous ap&shy;porter un moment unique et sur-mesure grâce à mon attention, ma disponibilité et mon écoute.

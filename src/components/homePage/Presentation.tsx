@@ -47,12 +47,12 @@ const Presentation: FC = () => {
               <FaLongArrowAltRight className='mr-2 pb-0 md:pb-2' size={40} />
               <p>Retrouvez-moi maintenant au cabinet d&apos;ostéopathie de Fontvieille, <Link className='underline italic underline-offset-4' href={"https://www.google.com/maps/place/59+Cr+Hyacinthe+Bellon,+13990+Fontvieille/@43.7268207,4.7081839,17z/data=!3m1!4b1!4m6!3m5!1s0x12b5dfc9689419b3:0x54050721b5ee9a6f!8m2!3d43.7268169!4d4.7107588!16s%2Fg%2F11b8v7tzj1?hl=fr&entry=ttu&g_ep=EgoyMDI0MDkwOC4wIKXMDSoASAFQAw%3D%3D"}>59 Cours Hyacinthe Bellon, Fontvieille (13990)</Link>.</p>
             </li>
-            <li className={`${varela.className} tracking-wide text-lg lg:text-2xl text-left leading-10 my-8 text-white px-5 border-bottom-8 border-white flex`}>
+            {/* <li className={`${varela.className} tracking-wide text-lg lg:text-2xl text-left leading-10 my-8 text-white px-5 border-bottom-8 border-white flex`}>
               <FaLongArrowAltRight className='mr-2 pb-0 md:pb-2' size={40} />
               <p>
                 Vous pouvez désormais prendre un RDV en ligne en vous rendant sur la plateforme , <Link className='underline italic underline-offset-4' href={"https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens"}>www.crenolibre.com</Link>.
               </p>
-            </li>
+            </li> */}
           </ul>
           
         </motion.article>
@@ -82,9 +82,10 @@ const Presentation: FC = () => {
             }}
           >
             <Image 
-              src="/images/portrait.jpeg" 
+              src="/images/portrait-3.jpg" 
               alt='portrait de Julie Dumesnil'
-              fill
+              width={450}
+              height={350}
               className='grayscale-[30%]'
             />            
           </motion.div>
@@ -128,8 +129,8 @@ const Presentation: FC = () => {
       </InView>    
       <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
         <HomeCurveSeparation 
-          texte="Prendre rdv en ligne" 
-          lien="https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens" 
+          texte="Prendre rdv" 
+          lien="tel:0616838962" 
           margin="0" 
           target={true}
           inView={curveInView}

@@ -52,9 +52,9 @@ const ReflexologieScreen: FC = () => {
           </motion.article>
 
           <motion.article 
-            variants={opacityBandeau}
-            animate={"animate"}
-            initial="initial" 
+            animate={{opacity:1, y:0}}
+            transition={{duration:1, delay:1.1, ease:"easeOut"}}
+            initial={{opacity:0, y:"100%"}} 
             className='min-w-[15%]'
           >
             <Image
