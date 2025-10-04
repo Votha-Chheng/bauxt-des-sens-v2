@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from '@/components/sharedUI/Footer'
 import MenuHead from '@/components/sharedUI/MenuHead'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,6 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTMID!} />
       <body className={inter.className} suppressHydrationWarning>
         <MenuHead/>
         {children}
