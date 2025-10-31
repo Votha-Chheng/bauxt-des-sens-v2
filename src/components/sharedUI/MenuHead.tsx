@@ -33,7 +33,7 @@ const MenuHead: FC = () => {
           <h1 className={`translate-y-1 tracking-wider text-white text-3xl ${mrsDelafield.className}`}>Baux&apos;t des sens</h1>
         </Link>
         {
-          width && width<900
+          width && width<1000
           ?
           <Burger burger={burger} setBurger={setBurger} />
           :

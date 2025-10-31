@@ -4,6 +4,7 @@ import { appearAndUp } from '@/@animations/appearAndUp'
 import { titleAnimation } from '@/@animations/titleAnimation'
 import { childList, parentList } from '@/@animations/yogaAnimations'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { motion, useAnimation } from 'framer-motion'
@@ -14,6 +15,7 @@ import { InView } from 'react-intersection-observer'
 
 const KobidoScreen: FC = () => {
   const [sectionTwoInView, setSectionTwoInView] = useState<boolean>(false)
+  const [curveInView, setCurveInView] = useState<boolean>(false)
 
   const controls = useAnimation()
 
@@ -129,6 +131,15 @@ const KobidoScreen: FC = () => {
             </motion.li>
           </motion.ul>
         </motion.section>
+      </InView>
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
       </InView>
     </main>
   )

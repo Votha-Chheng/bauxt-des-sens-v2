@@ -2,13 +2,17 @@
 
 import { opacityBandeau } from '@/@animations/opacityBandeau'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
+import { InView } from 'react-intersection-observer'
 
 const MassagePersonnaliseScreen: FC = () => {
+  const [curveInView, setCurveInView] = useState<boolean>(false)
+  
   return (
     <main className='py-14 bg-main-theme overflow-hidden'>
       <Hero title="massage personnalisé" translateUp='-450' heroInView={true} image='custom-massage.jpg' />
@@ -36,6 +40,15 @@ const MassagePersonnaliseScreen: FC = () => {
           </article>
         </div>
       </motion.section> 
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
+      </InView>
     </main>
   )
 }

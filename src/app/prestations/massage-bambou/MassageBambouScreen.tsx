@@ -2,15 +2,19 @@
 
 import { titleAnimation } from '@/@animations/titleAnimation'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { varela } from '@/fonts/varela'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
 import { PiWarningFill } from "react-icons/pi";
+import { InView } from 'react-intersection-observer'
 
 const MassageBambouScreen: FC = () => {
+  const [curveInView, setCurveInView] = useState<boolean>(false)
+  
   return (
     <main className='pt-14 pb-24 bg-main-theme overflow-hidden'>
       <Hero title='Massage bambou' image='massage-bambous.jpg' translateUp='-300' heroInView={true} />
@@ -49,6 +53,15 @@ const MassageBambouScreen: FC = () => {
           </div>
         </motion.article>
       </section>
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
+      </InView>
     </main>
   )
 }

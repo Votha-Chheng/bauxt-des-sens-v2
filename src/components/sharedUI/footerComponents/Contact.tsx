@@ -1,6 +1,7 @@
 "use client"
 
 import { karla } from '@/fonts/karla'
+import { MailIcon } from 'lucide-react'
 import Image from 'next/image'
 import React, { FC, useEffect, useState } from 'react'
 import { FaPhone } from 'react-icons/fa6'
@@ -28,9 +29,9 @@ const Contact: FC = () => {
           </a>
         </li>
         <li className={`font-bold ${karla.className} `}>
-          <a href="https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens" className="flex gap-2 items-center">
-            <Image src="/images/logo-crenolibre.svg" alt="logo de crenolibre.com" width={20} height={20} />
-            <span>Prendre un RDV en ligne</span>
+          <a href="/contact" className="flex gap-2 items-center">
+            <MailIcon/>
+            <span>Formulaire de contact</span>
           </a>
         </li>
         <li className={`font-bold ${karla.className}`}>

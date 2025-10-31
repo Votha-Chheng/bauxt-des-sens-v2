@@ -2,15 +2,18 @@
 
 import { opacityBandeau } from '@/@animations/opacityBandeau'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import ModalImage from '@/components/sharedUI/ModalImage'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React, { FC, useState } from 'react'
+import { InView } from 'react-intersection-observer'
 
 const ReflexologieScreen: FC = () => {
   const [modalIsOpen, setModalIsOpen] = useState<boolean>(false)
+  const [curveInView, setCurveInView] = useState<boolean>(false)
 
   return (
     <>
@@ -75,6 +78,15 @@ const ReflexologieScreen: FC = () => {
             </motion.small>
           </motion.article>
         </section>
+        <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+          <HomeCurveSeparation 
+            texte="Me contacter ou Prendre RDV" 
+            lien="/infospratiques" 
+            margin="0" 
+            target={false}
+            inView={curveInView}
+          />
+        </InView>
       </main>
     </>
   )

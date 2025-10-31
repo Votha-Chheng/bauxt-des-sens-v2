@@ -3,6 +3,7 @@
 import { appearAndUp } from '@/@animations/appearAndUp'
 import { titleAnimation } from '@/@animations/titleAnimation'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { italianno } from '@/fonts/italianno'
 import { karla } from '@/fonts/karla'
 import { parisienne } from '@/fonts/parisienne'
@@ -17,6 +18,7 @@ import { InView } from 'react-intersection-observer'
 const SoinsVisageScreen: FC = () => {
   const [sectionTwoInView, setSectionTwoInView] = useState<boolean>(false)
   const [sectiontThreeInView, setSectiontThreeInView] = useState<boolean>(false)
+  const [curveInView, setCurveInView] = useState<boolean>(false)
 
   return (
     <main className='bg-main-theme py-14 overflow-hidden'>
@@ -124,6 +126,15 @@ const SoinsVisageScreen: FC = () => {
             <em className='leading-10'>Une olive en Provence, c&apos;est une mar&shy;que lo&shy;ca&shy;le avec des pro&shy;duits de qua&shy;li&shy;té que j&apos;ai sé&shy;lec&shy;tion&shy;né pour vous, et que j&apos;u&shy;ti&shy;li&shy;se pour vos soins.</em>
           </p>
         </motion.section>
+      </InView>
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
       </InView>
     </main>
   )

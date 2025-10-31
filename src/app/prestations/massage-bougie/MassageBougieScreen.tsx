@@ -2,13 +2,17 @@
 
 import { titleAnimation } from '@/@animations/titleAnimation'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
+import { InView } from 'react-intersection-observer'
 
 const MassageBougieScreen: FC = () => {
+  const [curveInView, setCurveInView] = useState<boolean>(false)
+  
   return (
     <main className='py-14 bg-main-theme overflow-hidden'>
       <Hero title='Massage à la bougie' image="pexels-candles.jpg" translateUp='-150' heroInView={true} />
@@ -50,6 +54,15 @@ const MassageBougieScreen: FC = () => {
       <h4 className={`${playfair.className} my-24 italic px-5 md:px-20 tracking-wide font-bold text-white text-3xl lg:text-4xl text-center leading-[3.5rem]`}>
         Bref, effet enveloppant, confort immédiat et sensation de cocooning garantis !
       </h4>
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
+      </InView>
     </main>
   )
 }

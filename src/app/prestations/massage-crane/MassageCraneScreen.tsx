@@ -2,12 +2,9 @@
 
 import { opacityBandeau } from '@/@animations/opacityBandeau'
 import Hero from '@/components/sharedUI/Hero'
-import { italianno } from '@/fonts/italianno'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
-import { mrsDelafield } from '@/fonts/mrsDelafield'
-import { pinyon } from '@/fonts/pinyon'
 import { playfair } from '@/fonts/playfair'
-import { varela } from '@/fonts/varela'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import React, { FC, useState } from 'react'
@@ -16,6 +13,7 @@ import { InView } from 'react-intersection-observer'
 
 const MassageCranePage: FC = () => {
   const [sectionInView, setSectionInView] = useState<boolean>(false)
+  const [curveInView, setCurveInView] = useState<boolean>(false)
 
   return (
     <main className="py-14 bg-main-theme overflow-hidden">
@@ -82,6 +80,15 @@ const MassageCranePage: FC = () => {
           </section>
         </motion.div>
       </InView> 
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
+      </InView>
     </main>
   )
 }

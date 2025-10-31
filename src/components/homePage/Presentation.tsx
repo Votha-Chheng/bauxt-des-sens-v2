@@ -129,10 +129,10 @@ const Presentation: FC = () => {
       </InView>    
       <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
         <HomeCurveSeparation 
-          texte="Prendre rdv" 
-          lien="tel:0616838962" 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
           margin="0" 
-          target={true}
+          target={false}
           inView={curveInView}
         />
       </InView>

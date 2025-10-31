@@ -1,7 +1,5 @@
 'use client'
 
-import { karla } from "@/fonts/karla";
-import { opacityBandeau } from "@/@animations/opacityBandeau";
 import { useWindowSize } from "@uidotdev/usehooks";
 import { motion, useAnimation } from "framer-motion";
 import Link from "next/link";
@@ -95,7 +93,7 @@ const HomeCurveSeparation: FC<HomeCurveSeparationProps> = ({texte, delay=0, dela
         ref={curlySvg} 
         variants={parentSvg} 
         initial="initial" 
-        animate={controls} 
+        animate={inView ? "animate" : ""}
         className="curve-svg z-10" 
         width="100%" 
         height="100%" 

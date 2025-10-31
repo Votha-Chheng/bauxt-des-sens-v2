@@ -4,7 +4,6 @@ import { mrsDelafield } from '@/fonts/mrsDelafield'
 import { parisienne } from '@/fonts/parisienne'
 import { playfair } from '@/fonts/playfair'
 import Image from 'next/image'
-import Link from 'next/link'
 import React, { FC } from 'react'
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa6'
 
@@ -41,10 +40,7 @@ const InfosScreenMini: FC = () => {
                 <div className={`${karla.className} my-6 mx-auto text-2xl transition-all duration-300 ease-out hover:scale-110`}>
                   <a href="tel:0616838962">06.16.83.89.62</a>
                 </div>
-                Ou prendre directement RDV en ligne avec moi via la plateforme 
-                <div className='mt-2 mb-5 text-xl'>
-                  <Link className={`${karla.className} underline italic underline-offset-4`} href="https://www.crenolibre.fr/prendre-rdv/101451_bauxt-des-sens">www.crenolibre.com</Link>
-                </div>
+                Ou remplir le formulaire de contact ci-dessus en remplissant les informations demandées
               </div>
               <div className={`${parisienne.className} mb-5 text-center text-3xl text-pink`} >
                 Prenez soin de vous !

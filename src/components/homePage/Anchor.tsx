@@ -48,7 +48,7 @@ const Anchor:FC = () => {
         animate='animate'
       >
         <motion.div className='h-1 rounded-full bg-white w-full' variants={variantBorderTop}/>
-        <h3 className="text-2xl md:text-3xl my-2.5 md:my-4">Votre instant bien-être</h3>
+        <h3 className="text-2xl md:text-3xl my-2.5 md:my-4">Massage & bien-être à domicile</h3>
         <div className='h-full md:h-16' style={{width: `${locationWidth}px`}}>
           <div className="h-12 w-full flex text-2xl md:text-3xl relative flex-nowrap tracking-wide">
             <div ref={up} className="arles">

@@ -60,7 +60,7 @@ export const menuItems: MenuItem[] = [
     path: 'photos'
   },
   {
-    nom:"Infos", 
+    nom:"Infos & contact", 
     path: 'infospratiques'
   },
 ]

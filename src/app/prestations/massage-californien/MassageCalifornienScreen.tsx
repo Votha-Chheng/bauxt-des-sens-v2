@@ -2,13 +2,17 @@
 
 import { opacityBandeau } from '@/@animations/opacityBandeau'
 import Hero from '@/components/sharedUI/Hero'
+import HomeCurveSeparation from '@/components/sharedUI/HomeCurveSeparation'
 import { karla } from '@/fonts/karla'
 import { playfair } from '@/fonts/playfair'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
+import { InView } from 'react-intersection-observer'
 
 const MassageCalifornienScreen:FC = () => {
+  const [curveInView, setCurveInView] = useState<boolean>(false)
+  
   return (
     <main className='py-14 bg-main-theme overflow-hidden'>
       <Hero title="massage californien" translateUp='-250' heroInView={true} image='118930618_372805930709061_72465373286677363_n.jpg' />
@@ -42,6 +46,15 @@ const MassageCalifornienScreen:FC = () => {
           </article>
         </div>
       </motion.section> 
+      <InView onChange={(inView, entry)=> setCurveInView(inView && true)} className='py-12' >
+        <HomeCurveSeparation 
+          texte="Me contacter ou Prendre RDV" 
+          lien="/infospratiques" 
+          margin="0" 
+          target={false}
+          inView={curveInView}
+        />
+      </InView>
     </main>
   )
 }
