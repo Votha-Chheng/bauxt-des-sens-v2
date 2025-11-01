@@ -27,7 +27,7 @@ export const sendEmailAction = async(prevState: ServiceResponse<unknown>, formDa
     const data = parsedData.data as IdForEmail
 
     const res = await resend.emails.send({
-      to: "votha.chheng@gmail.com",
+      to: "julie-dum02@hotmail.fr",
       from: "contact@bauxt-des-sens.com",
       subject: "Message du site bauxt-des-sens.com",
       text: `Ci-joint, un message d'une personne nommée ${data.nom} ${data.prenom}.\nN° de téléphone : ${data.telephone}. \nAdresse e-mail : ${data.email}. \nMessage : ${data.message}. \n`,
