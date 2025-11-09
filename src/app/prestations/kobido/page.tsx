@@ -8,3 +8,6 @@
 // }
 
 // export default KobidoPage
+export default function Page() {
+  return null; // ou le contenu que vous voulez
+}
