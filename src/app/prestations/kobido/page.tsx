@@ -1,10 +1,10 @@
-import React, { FC } from 'react'
-import KobidoScreen from './KobidoScreen'
+// import React, { FC } from 'react'
+// import KobidoScreen from './KobidoScreen'
 
-const KobidoPage: FC = () => {
-  return (
-    <KobidoScreen/>
-  )
-}
+// const KobidoPage: FC = () => {
+//   return (
+//     <KobidoScreen/>
+//   )
+// }
 
-export default KobidoPage
+// export default KobidoPage

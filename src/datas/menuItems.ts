@@ -29,10 +29,10 @@ export const menuItems: MenuItem[] = [
         nom:"Soin visage", 
         path: 'soin-visage',
       },
-      {
-        nom:"Kobido", 
-        path: 'kobido',
-      },
+      // {
+      //   nom:"Kobido", 
+      //   path: 'kobido',
+      // },
       {
         nom:"Massage crânien", 
         path: 'massage-crane',
