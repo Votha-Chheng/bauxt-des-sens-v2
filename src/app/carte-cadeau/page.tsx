@@ -20,7 +20,7 @@ const CarteCadeauPage = () => {
       </motion.h2>
       <motion.section className='lg:my-24 md:w-11/12 mx-auto' variants={opacityBandeau} initial="initial" animate="animate" >
         <p className={`${karla.className} text-white text-justify lg:px-5 px-1.5 text-base lg:text-2xl relative italic indent-7 leading-7 lg:leading-10 mb-10 tracking-wider`}>
-          Pour la St-Valentin, pour un an&shy;ni&shy;ver&shy;sai&shy;re, pour une au&shy;tre gran&shy;de oc&shy;casion, ou tout simple&shy;ment pour fai&shy;re plai&shy;sir, Baux'T des sens vous pro&shy;po&shy;se de com&shy;man&shy;der et d'im&shy;pri&shy;mer une car&shy;te-ca&shy;deau avec la presta&shy;tion de vo&shy;tre choix. <b>Pour cela, la pro&shy;cé&shy;du&shy;re à sui&shy;vre et très simple :</b>
+          Pour la St-Valentin, pour un an&shy;ni&shy;ver&shy;sai&shy;re, pour une au&shy;tre gran&shy;de oc&shy;casion, ou tout simple&shy;ment pour fai&shy;re plai&shy;sir, Baux&apos;T des sens vous pro&shy;po&shy;se de com&shy;man&shy;der et d&apos;im&shy;pri&shy;mer une car&shy;te-ca&shy;deau avec la presta&shy;tion de vo&shy;tre choix. <b>Pour cela, la pro&shy;cé&shy;du&shy;re à sui&shy;vre et très simple :</b>
         </p>
         <motion.ul variants={variantsAppear} initial="start" animate="fadeIn" className={`${karla.className} pl-0 lg:pl-20 list-none text-white tracking-wider lg:text-2xl`}  >
           <motion.li 
