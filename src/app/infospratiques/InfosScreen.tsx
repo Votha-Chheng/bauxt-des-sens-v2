@@ -16,27 +16,10 @@ import { titleAnimation } from "@/@animations/titleAnimation";
 import Link from "next/link";
 import { FC } from "react";
 import { Link2 } from "lucide-react";
+import { variantsAppear, variantsChildren } from "@/@animations/variantsAppear";
 
 const InfosScreen: FC = () => {  
   const { width } = useWindowSize()
-
-  const variantsAppear = {
-    start: {},
-    fadeIn : {
-      transition: {
-        staggerChildren : 0.25,
-        delayChildren : 0.5
-      }   
-    }
-  }
-  const variantsChildren = {
-    start: {
-      opacity : 0
-    },
-    fadeIn : {
-      opacity : 1,
-    }   
-  }
 
   return (  
     <>

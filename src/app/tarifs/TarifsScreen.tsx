@@ -12,6 +12,7 @@ import HomeCurveSeparation from "@/components/sharedUI/HomeCurveSeparation";
 import { massageListe } from "@/datas/massageListe";
 import { DescriptionMassage } from "@/@types/descriptionMassage";
 import { Prestation } from "@/@types/prestation";
+import { opacityBandeau } from "@/@animations/opacityBandeau";
 
 const TarifsScreen: FC = () => {
 
@@ -59,14 +60,16 @@ const TarifsScreen: FC = () => {
 
       <main className="py-14 px-10 lg:px-20 bg-main-theme">
         <motion.h2 className="home-titles" variants={titleAnimation} initial="initial" animate="appear" >Tarifs</motion.h2>
-        {
-          tableauMassage.map((prestation: Prestation, index: number)=> (
-            <div key={index}>
-              <Image className="mx-auto mt-20 mb-5 border-2 border-white rounded-md" src={images[index]} alt={images[index]} width={300} height={300} loading='lazy' />
-              <PrestationLayout prestation={prestation}/>
-            </div>
-          ))
-        }
+        <motion.div variants={opacityBandeau} initial="initial" animate="animate">
+          {
+            tableauMassage.map((prestation: Prestation, index: number)=> (
+              <div key={index}>
+                <Image className="mx-auto mt-20 mb-5 border-2 border-white rounded-md" src={images[index]} alt={images[index]} width={300} height={300} loading='lazy' />
+                <PrestationLayout prestation={prestation}/>
+              </div>
+            ))
+          }
+        </motion.div>
         <HomeCurveSeparation 
           texte="Prendre RDV" 
           lien="tel:0616838962" 

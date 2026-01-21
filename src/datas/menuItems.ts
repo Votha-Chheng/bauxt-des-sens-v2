@@ -60,6 +60,10 @@ export const menuItems: MenuItem[] = [
     path: 'photos'
   },
   {
+    nom:"Carde-cadeau", 
+    path: 'carte-cadeau'
+  },
+  {
     nom:"Infos & contact", 
     path: 'infospratiques'
   },
