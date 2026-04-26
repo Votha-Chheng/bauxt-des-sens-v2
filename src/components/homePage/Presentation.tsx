@@ -26,7 +26,7 @@ const Presentation: FC = () => {
         <motion.div
           initial={{opacity: 0}}
           animate={ sectionInView ? {opacity: 1} : {}}
-          transition={{ duration: 0.75, delay: 1 }}
+          transition={{ duration: 0.75, delay: 0.5 }}
         >
           <Image className='mx-auto' src="/images/logoLotus.svg" alt='lotus' width={100} height={100}/>
         </motion.div>
@@ -34,7 +34,7 @@ const Presentation: FC = () => {
           className="mt-12 mb-8 overflow-hidden w-full"
           initial={{opacity: 0}}
           animate={ sectionInView ? {opacity: 1} : {}}
-          transition={{ duration: 0.75, delay: 1 }}
+          transition={{ duration: 0.75, delay: 0.5 }}
         >
           <div className='relative h-16 pt-1'>
             <div className='rounded-md top-[20%] md:top-1/4 absolute w-full h-1 md:h-2 bg-white' />

@@ -4,13 +4,19 @@ import { bgImgAnim, folder, logoAnim, variantBorderBottom, variantBorderTop, var
 import { playfair } from '@/fonts/playfair'
 import { useWindowSize } from '@uidotdev/usehooks'
 import { motion } from 'framer-motion'
+import { Volume2, VolumeOff } from 'lucide-react'
 import Image from 'next/image'
-import React, { FC, useEffect, useRef, useState } from 'react'
+import React, { FC, use, useEffect, useRef, useState } from 'react'
+import AudioPresentation from '../sharedUI/AudioPresentation'
+import { varela } from '@/fonts/varela'
 
 const Anchor:FC = () => {
   const [locationWidth, setLocationWidth] = useState<number>(0)
   const [anchorHeight, setAnchorHeight] = useState<number>(0)
+  const [soundOn, setSoundOn] = useState(false)
+
   const anchorRef = useRef<HTMLDivElement>(null)
+  const audioRef= useRef<HTMLAudioElement>(null)
   const up = useRef<HTMLDivElement>(null)
   const down = useRef<HTMLDivElement>(null)
 
@@ -26,8 +32,28 @@ const Anchor:FC = () => {
     }
   }, [size])
 
+  const startAudio = () => {
+    try {
+      audioRef.current?.play();
+      setSoundOn(true);
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  const stopAudio = () => {
+    try {
+      audioRef.current?.pause();
+      setSoundOn(false);
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
   return (
     <section ref={anchorRef} className='bg-main-theme relative lg:h-screen overflow-hidden'>
+      <audio ref={audioRef} src="/sounds/audio-bauxt-des-sens.mp3" autoPlay className='hidden' preload='auto'/> 
+      <AudioPresentation absolutePosition={true} className='md:block hidden' stopAudio={stopAudio} startAudio={startAudio} soundOn={soundOn}/>
       <motion.div 
         variants={logoAnim}
         initial='initial' 
@@ -42,7 +68,7 @@ const Anchor:FC = () => {
       </motion.div>
 
       <motion.div 
-        className={`${playfair.className} absolute text-center top-[550px] md:top-[675px] left-1/2 -translate-x-1/2 text-white overflow-hidden z-10 italic px-2.5`} 
+        className={`${playfair.className} absolute text-center top-[550px] md:top-[675px] left-1/2 -translate-x-1/2 text-white overflow-x-hidden z-10 italic px-2.5`} 
         variants={variantsPhrases} 
         initial='initial' 
         animate='animate'
@@ -60,7 +86,9 @@ const Anchor:FC = () => {
           </div>
         </div>
         <motion.div className='h-1 rounded-full bg-white w-full' variants={variantBorderBottom}/>
+        <AudioPresentation absolutePosition={false} className={`${varela.className} md:hidden block mx-auto mt-5 md:mt-0`} stopAudio={stopAudio} startAudio={startAudio} soundOn={soundOn}/>
       </motion.div>
+
       <motion.div
         className="absolute w-full h-full bg-main-theme z-50" 
         variants={folder}
@@ -77,7 +105,7 @@ const Anchor:FC = () => {
       {
         height && height>750 &&
         <motion.div 
-          className="overflow-hidden absolute z-30 left-1/2 -translate-x-1/2 bottom-12 lg:right-20 lg:left-auto flex flex-col items-center text-white cursor-pointer" 
+          className="overflow-hidden absolute z-30 left-1/2 -translate-x-1/2 bottom-12 xl:right-20 lg:left-auto hidden xl:flex flex-col items-center text-white cursor-pointer" 
           initial={{opacity:0}} 
           animate={{opacity:1}} 
           transition={{opacity : {delay:3}}} 
