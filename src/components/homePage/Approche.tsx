@@ -47,7 +47,7 @@ const Approche: FC = () => {
           </motion.div>
           <motion.div variants={imgAppear} className='relative min-w-[350px] rounded-md max-w-[350px] border-2 border-white overflow-hidden h-[200px]'>
             <Image src='/images/bougie-serviette.jpg' alt="bougie et serviette" width={900} height={900} style={{objectFit:'cover'}}/>
-            <small className='absolute bottom-1 right-2'>Crédit photo : &copy;freepik</small>
+            <small className='absolute bottom-1 right-2'>Crédit photo : &copy;Pexels</small>
           </motion.div>
           <motion.div 
             ref={textRef} 
