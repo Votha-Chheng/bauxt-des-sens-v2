@@ -58,7 +58,7 @@ const Anchor:FC = () => {
         variants={logoAnim}
         initial='initial' 
         animate='animate'
-        className="absolute z-30 -translate-x-1/2 left-1/2 top-28 w-[375px] h-[375px] md:w-[500px] md:h-[500px]" 
+        className="absolute z-30 -translate-x-1/2 left-1/2 top-20 w-[375px] h-[375px] md:w-[500px] md:h-[500px]" 
       >
         <Image 
           src="/images/logo.svg" 
@@ -68,7 +68,7 @@ const Anchor:FC = () => {
       </motion.div>
 
       <motion.div 
-        className={`${playfair.className} absolute text-center top-[550px] md:top-[675px] left-1/2 -translate-x-1/2 text-white overflow-x-hidden z-10 italic px-2.5`} 
+        className={`${playfair.className} absolute text-center top-[475px] md:top-[675px] left-1/2 -translate-x-1/2 text-white overflow-x-hidden z-10 italic px-2.5`} 
         variants={variantsPhrases} 
         initial='initial' 
         animate='animate'
